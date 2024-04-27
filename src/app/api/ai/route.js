@@ -6,6 +6,33 @@ const openai = new OpenAI({
 
 const cochabambaExamples = {
     //Question about the bot
+    "CARGO":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "CARGO DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ESTA A CARGO DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ESTA A CARGO DE COCHABAMBA ACTUALMENTE":{
+        content:"El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA AUTORIDAD COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA ACTUALMENTE":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "QUIEN ES LA MAXIMA AUTORIDAD":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
+    "AUTORIDAD DE COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    },
     "ALCALDE":{
         content:"El Alcalde de Cochabamba es Manfred Reyes Villa"
     },
@@ -1400,7 +1427,7 @@ export async function GET(req) {
     const cochabambaExample = cochabambaExamples[matchedQuestion];
     let combinedResponse;
 
-    if (question.includes("ALCALDE") || question.includes("AUTORIDAD") || question.includes("CARGO") ) {
+    if (question.includes("ALCALDE")) {
         console.log("funciona");
         try {
             const chatCompletion = await openai.chat.completions.create({
