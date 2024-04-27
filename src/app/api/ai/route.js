@@ -37,7 +37,27 @@ const cochabambaExamples = {
     "DONDE NACIO MANFRED REYES VILLA":{
         content:"Nació en el Departamento de La Paz",
     },
-    
+    "DONDE NACIO MANFRED ARMANDO REYES VILLA BACIGALUPI":{
+        content:"Nació en el Departamento de La Paz",
+    },
+    "DONDE NACIO":{
+        content:"Nació en el Departamento de La Paz",
+    },
+    "CUANTAS VECES FUE ALCALDE DE COCHABAMBA":{
+        content:"De retorno a Bolivia empezó su carrera política a principios de 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente llegó a ser burgomaestre por cuatro periodos consecutivos entre 1993 y 2000, simultáneamente a su labor de Alcalde, fue elegido Presidente de la Asociación de Gobiernos MunicipalesAutónomos de Bolivia, asumiendo por tal calidad el cargo de Miembro de la Unión Internacional de Autoridades Locales (IULA) y siendo nombrado a nivel internacional como representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Word Association of Cities and Local Authorities Coordination, con base en Ginebra, Suiza",
+    },
+    "CUANTAS VECES FUE ALCALDE":{
+        content:"De retorno a Bolivia empezó su carrera política a principios de 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente llegó a ser burgomaestre por cuatro periodos consecutivos entre 1993 y 2000, simultáneamente a su labor de Alcalde, fue elegido Presidente de la Asociación de Gobiernos MunicipalesAutónomos de Bolivia, asumiendo por tal calidad el cargo de Miembro de la Unión Internacional de Autoridades Locales (IULA) y siendo nombrado a nivel internacional como representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Word Association of Cities and Local Authorities Coordination, con base en Ginebra, Suiza",
+    },
+    "CUANTAS VECES FUE ALCALDE DE COCHABAMBA MANFRED REYES VILLA":{
+        content:"De retorno a Bolivia empezó su carrera política a principios de 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente llegó a ser burgomaestre por cuatro periodos consecutivos entre 1993 y 2000, simultáneamente a su labor de Alcalde, fue elegido Presidente de la Asociación de Gobiernos MunicipalesAutónomos de Bolivia, asumiendo por tal calidad el cargo de Miembro de la Unión Internacional de Autoridades Locales (IULA) y siendo nombrado a nivel internacional como representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Word Association of Cities and Local Authorities Coordination, con base en Ginebra, Suiza",
+    },
+    "CUANTAS VECES FUE ALCALDE DE COCHABAMBA MANFRED ARMANDO REYES VILLA BACIGALUPI":{
+        content:"De retorno a Bolivia empezó su carrera política a principios de 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente llegó a ser burgomaestre por cuatro periodos consecutivos entre 1993 y 2000, simultáneamente a su labor de Alcalde, fue elegido Presidente de la Asociación de Gobiernos MunicipalesAutónomos de Bolivia, asumiendo por tal calidad el cargo de Miembro de la Unión Internacional de Autoridades Locales (IULA) y siendo nombrado a nivel internacional como representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Word Association of Cities and Local Authorities Coordination, con base en Ginebra, Suiza",
+    },   
+    "CUANTAS VECES FUE ALCALDE DE COCHABAMBA MANFRED":{
+        content:"De retorno a Bolivia empezó su carrera política a principios de 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente llegó a ser burgomaestre por cuatro periodos consecutivos entre 1993 y 2000, simultáneamente a su labor de Alcalde, fue elegido Presidente de la Asociación de Gobiernos MunicipalesAutónomos de Bolivia, asumiendo por tal calidad el cargo de Miembro de la Unión Internacional de Autoridades Locales (IULA) y siendo nombrado a nivel internacional como representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Word Association of Cities and Local Authorities Coordination, con base en Ginebra, Suiza",
+    },
     /*"CARGO DE LA ALCALDIA DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
@@ -107,7 +127,6 @@ const cochabambaExamples = {
     "QUIEN ES EL SECRETARIO MUNICIPAL DEl GOBIERNO ELECTRONICO":{
         content:"André Canelas somare",
     },
-    
     /*"ALCALDE":{
         content:"El Alcalde de Cochabamba es Manfred Reyes Villa"
     },
