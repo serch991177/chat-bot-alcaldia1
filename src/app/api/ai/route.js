@@ -34,6 +34,10 @@ const cochabambaExamples = {
     "CARGOS QUE OCUPO MANFRED ARMANDO REYES VILLA":{
         content:"Manfred Reyes Villa, el actual alcalde de Cochabamba, ha ocupado varios cargos públicos en su carrera política. Fue prefecto del departamento de Cochabamba y también candidato a la presidencia de Bolivia. Además, cuenta con una amplia experiencia política y administrativa que lo ha llevado a desempeñar varios roles en el ámbito gubernamental. En su actual mandato como alcalde, se enfoca en mejorar la infraestructura urbana y los servicios públicos de la ciudad de Cochabamba.",
     },
+    "DONDE NACIO MANFRED REYES VILLA":{
+        content:"Nació en el Departamento de La Paz",
+    },
+    
     /*"CARGO DE LA ALCALDIA DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
