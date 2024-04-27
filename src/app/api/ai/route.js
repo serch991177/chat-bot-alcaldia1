@@ -5,33 +5,60 @@ const openai = new OpenAI({
 });
 
 const cochabambaExamples = {
-    //Question about the bot
+    //Question about the bot gobierno municipal de cochabamba  
+    "ALCALDIA DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "CARGO DE LA ALCALDIA DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "QUIEN ESTA A CARGO DE LA ALCALDIA DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "GOBIERNO MUNICIPAL DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "QUIEN ESTA A CARGO DEL GOBIERNO MUNICIPAL DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "QUIEN ESTA AL MANDO DEL GOBIERNO MUNICIPAL DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "QUIEN ESTA A CARGO DEL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
+    "QUIEN ESTA AL MANDO DEL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },
     "CARGO":{
-        content:"El Alcalde Manfred Reyes Villa"
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "CARGO DE COCHABAMBA":{
-        content:"El Alcalde Manfred Reyes Villa"
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "QUIEN ESTA A CARGO DE COCHABAMBA":{
-        content:"El Alcalde Manfred Reyes Villa"
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "QUIEN ESTA A CARGO DE COCHABAMBA ACTUALMENTE":{
-        content:"El Alcalde Manfred Reyes Villa"
+        content:"El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "QUIEN ES LA AUTORIDAD COCHABAMBA":{
-        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    "QUIEN ES LA AUTORIDAD COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBA ACTUALMENTE":{
-        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA ACTUALMENTE":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBA":{
-        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
     "QUIEN ES LA MAXIMA AUTORIDAD":{
-        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "AUTORIDAD DE COCHABAMBA":{
-        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa"
+    "AUTORIDAD DE COCHABAMBABA":{
+        content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
     "ALCALDE":{
         content:"El Alcalde de Cochabamba es Manfred Reyes Villa"
@@ -1464,7 +1491,7 @@ export async function GET(req) {
             });
 
             const chatResponse = JSON.parse(chatCompletion.choices[0].message.content);
-            const alcalde = "Por el momento solo tengo conocimientos sobre el alcalde de Cochabamba que es Manfred Reyes Villa";
+            const alcalde = "Por el momento solo tengo conocimientos sobre el alcalde constitucional de Cochabamba que es Manfred Reyes Villa Bacigalupi desde la gestión 2021";
             combinedResponse = {
                 spanish: cochabambaExample.spanish,
                 content: `${alcalde}`,
