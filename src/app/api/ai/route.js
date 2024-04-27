@@ -6,69 +6,111 @@ const openai = new OpenAI({
 
 const cochabambaExamples = {
     //Question about the bot gobierno municipal de cochabamba  
-    "ALCALDIA DE COCHABAMBA":{
+    /*"ALCALDIA DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
+    },*/
+    "CUAL ES EL NOMBRE COMPLETO DEL ALCALDE DE COCHABAMBA":{
+        content:"Manfred Armando Antonio Reyes Villa Bacigalupi",
     },
-    "CARGO DE LA ALCALDIA DE COCHABAMBA":{
+    "NOMBRE COMPLETO DEL ALCALDE DE COCHABAMBA":{
+        content:"Manfred Armando Antonio Reyes Villa Bacigalupi",
+    },
+    "CUAL ES EL NOMBRE COMPLETO DE MANFRED":{
+        content:"Manfred Armando Antonio Reyes Villa Bacigalupi",
+    },
+    
+    "CUAL ES EL NOMBRE COMPLETO DE LA MAXIMA AUTORIDAD DE COCHABAMBA":{
+        content:"Manfred Armando Antonio Reyes Villa Bacigalupi",
+    },
+    "QUE AÑO NACIO MANFRED ARMANDO REYES VILLA BACIGALUPI":{
+        content:"Nació el 19 de abril el año 1955",
+    },
+    "CUANDO NACIO MANFRED ARMANDO REYES VILLA BACIGALUPI":{
+        content:"Nació el 19 de abril el año 1955",
+    },
+    "QUE CARGOS OCUPO MANFRED REYES VILLA":{
+        content:"Manfred Reyes Villa, el actual alcalde de Cochabamba, ha ocupado varios cargos públicos en su carrera política. Fue prefecto del departamento de Cochabamba y también candidato a la presidencia de Bolivia. Además, cuenta con una amplia experiencia política y administrativa que lo ha llevado a desempeñar varios roles en el ámbito gubernamental. En su actual mandato como alcalde, se enfoca en mejorar la infraestructura urbana y los servicios públicos de la ciudad de Cochabamba.",
+    },
+    "CARGOS QUE OCUPO MANFRED ARMANDO REYES VILLA":{
+        content:"Manfred Reyes Villa, el actual alcalde de Cochabamba, ha ocupado varios cargos públicos en su carrera política. Fue prefecto del departamento de Cochabamba y también candidato a la presidencia de Bolivia. Además, cuenta con una amplia experiencia política y administrativa que lo ha llevado a desempeñar varios roles en el ámbito gubernamental. En su actual mandato como alcalde, se enfoca en mejorar la infraestructura urbana y los servicios públicos de la ciudad de Cochabamba.",
+    },
+    /*"CARGO DE LA ALCALDIA DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "QUIEN ESTA A CARGO DE LA ALCALDIA DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
-    },
+    },*/
     "GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "GOBIERNO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
-    "QUIEN ESTA A CARGO DEL GOBIERNO MUNICIPAL DE COCHABAMBA":{
+    /*"QUIEN ESTA A CARGO DEL GOBIERNO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
-    },
+    },*/
     "QUIEN ESTA AL MANDO DEL GOBIERNO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
-    "QUIEN ESTA A CARGO DEL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
+    /*"QUIEN ESTA A CARGO DEL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
-    },
+    },*/
     "QUIEN ESTA AL MANDO DEL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
-    "CARGO":{
+    /*"CARGO":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "CARGO DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
-    },
+    },*/
     "QUIEN ESTA A CARGO DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "QUIEN ESTA A CARGO DE COCHABAMBA ACTUALMENTE":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "QUIEN ES LA AUTORIDAD COCHABAMBA":{
+    "QUIEN ES LA AUTORIDAD COCHABAMBABA":{
         content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBA ACTUALMENTE":{
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA ACTUALMENTE":{
         content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBA":{
+    "QUIEN ES LA MAXIMA AUTORIDAD DE COCHABAMBABA":{
         content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
     "QUIEN ES LA MAXIMA AUTORIDAD":{
         content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "AUTORIDAD DE COCHABAMBA":{
+    "AUTORIDAD DE COCHABAMBABA":{
         content:"La Maxima Autoridad de Cochabamba es El Alcalde Manfred Reyes Villa Bacigalupi"
     },
-    "ALCALDE":{
+    "QUIEN ES EL ACTUAL ALCALDE DE COCHABAMBA":{
+        content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
+    },
+    "QUIEN ES EL ALCALDE DE COCHABAMBA":{
+        content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
+    },
+    "ALCALDE DE COCHABAMBA":{
+        content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
+    },
+    "QUIEN ES EL SECRETARIO MUNICIPAL DE CIUDAD DIGITAL Y GOBIERNO ELECTRONICO":{
+        content:"André Canelas somare",
+    },
+    "QUIEN ES EL SECRETARIO MUNICIPAL DE CIUDAD DIGITAL":{
+        content:"André Canelas somare",
+    },
+    "QUIEN ES EL SECRETARIO MUNICIPAL DEl GOBIERNO ELECTRONICO":{
+        content:"André Canelas somare",
+    },
+    
+    /*"ALCALDE":{
         content:"El Alcalde de Cochabamba es Manfred Reyes Villa"
     },
     "ALCALDE COCHABAMBA":{
         content:"El Alcalde de Cochabamba es Manfred Reyes Villa"
     },
-    "QUIEN ES EL ACTUAL ALCALDE DE COCHABAMBA":{
-        content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
-    },
+    
     "ACTUAL ALCALDE DE COCHABAMBA":{
         content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
     },
@@ -80,7 +122,7 @@ const cochabambaExamples = {
     },
     "QUIEN ES EL ALCALDE DE COCHABAMBA":{
         content: "El Alcalde de Cochabamba es Manfred Reyes Villa",
-    },
+    },*/
     "HOLA":{
         content:"Hola soy AVONNI TU ASISTENTE, una asistente virtual basada en inteligencia artificial implementada por la Alcaldía de Cochabamba",
     },
@@ -1454,7 +1496,7 @@ export async function GET(req) {
     const cochabambaExample = cochabambaExamples[matchedQuestion];
     let combinedResponse;
 
-    if (question.includes("ALCALDE")) {
+    /*if (question.includes("ALCALDE")) {
         console.log("funciona");
         try {
             const chatCompletion = await openai.chat.completions.create({
@@ -1502,14 +1544,14 @@ export async function GET(req) {
             console.error("Error al procesar la solicitud:", error);
             return Response.json({ error: "Error al procesar la solicitud. Por favor, inténtalo de nuevo más tarde." });
         }
-    }else if (!matchedQuestion) {
+    }else */if (!matchedQuestion) {
         console.log("no match")
         try {
             const chatCompletion = await openai.chat.completions.create({
                 messages: [
                     {
                         role: "system",
-                        content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba."
+                        content: "Eres un asistente virtual de trámites del Gobierno Municipal de Cochabamba (Alcaldía de Cochabamba). Tu cliente te está haciendo una pregunta sobre trámites realizados o que se realizan en la alcaldía de Cochabamba. Debes responder con: \n- spanish: la versión en español de la pregunta, dividida en palabras ej: \n- content: Tu respuesta proporcionando información sobre procesos de trámites en la alcaldía de Cochabamba y sobre el actual alcalde de cochabamba que es Manfred Reyes Villa Bacigalupi."
                     },
                     {
                         role: "system",
