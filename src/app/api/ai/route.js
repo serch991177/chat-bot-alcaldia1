@@ -1634,6 +1634,13 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }
+    if  (/^(?=.*\bCOMO\b)(?=.*\bVISADO\b)(?=.*\bURBANIZACION\b)/i.test(question)){
+        const variable = "Es un trámite a realizar cuando se requiere urbanizar un terreno de su propiedad con superficie a 1300 metros cuadrados, con carácter previo al diseño de los planos definitivos del proyecto de urbanización, debe solicitar al Gobierno Autónomo Municipal de Cochabamba la visación de los planos del anteproyecto. Se puede realizar en la Sub Alcaldía a la que corresponde el predio. El costo depende del terreno por ejemplo la tasa de visación de anteproyecto: por terreno plano es 0.05 Bolivianos por metro cuadrado";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }
     if(/^(?=.*\bDONDE\b)(?=.*\bVISADO\b)(?=.*\bURBANIZACION\b)/i.test(question)){
         const variable = "Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía y Dirección de Urbanismo y Servicios Municipales.";
         combinedResponse = {
@@ -1663,6 +1670,13 @@ export async function GET(req) {
         };
     }
     if(/^(?=.*\bQUE\b)(?=.*\bREGULARIZACION\b)(?=.*\bEDIFICIO\b)/i.test(question)){
+        const variable = "Es un trámite a realizar cuando se tiene plano de construcción aprobado y se desea realizar modificaciones funcionales y/o de volumetría o se requiera realizar una ampliación a la edificación (mayor a tres plantas), para ello se debe solicitar la aprobación de remodelación o ampliación según el caso. El presente trámite también es aplicable en el caso que se desee realizar la regularización de una edificación construida que cumple la normativa vigente. También se aplica el trámite en caso que se requiera sustituir un plano de construcción aprobado por otro proyecto, siempre y cuando no esté construida la edificación.El trámite si cumple todos los requisitos y no hay observaciones, dura 40 días hábiles aproximadamente";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }
+    if(/^(?=.*\bCOMO\b)(?=.*\bREGULARIZACION\b)(?=.*\bEDIFICIO\b)/i.test(question)){
         const variable = "Es un trámite a realizar cuando se tiene plano de construcción aprobado y se desea realizar modificaciones funcionales y/o de volumetría o se requiera realizar una ampliación a la edificación (mayor a tres plantas), para ello se debe solicitar la aprobación de remodelación o ampliación según el caso. El presente trámite también es aplicable en el caso que se desee realizar la regularización de una edificación construida que cumple la normativa vigente. También se aplica el trámite en caso que se requiera sustituir un plano de construcción aprobado por otro proyecto, siempre y cuando no esté construida la edificación.El trámite si cumple todos los requisitos y no hay observaciones, dura 40 días hábiles aproximadamente";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1699,7 +1713,14 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }if(/^(?=.*\bDONDE\b)(?=.*\bPLANO\b)(?=.*\bVERJA\b)/i.test(question)){
+    }if(/^(?=.*\bCOMO\b)(?=.*\bPLANO\b)(?=.*\bVERJA\b)/i.test(question)){
+        const variable = "Es un trámite para aprobar un proyecto de construcción de verja, El trámite si cumple todos los requisitos y no hay observaciones, dura 10 días hábiles aproximadamente.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }
+    if(/^(?=.*\bDONDE\b)(?=.*\bPLANO\b)(?=.*\bVERJA\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1724,6 +1745,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bTRABAJOS\b)(?=.*\bMENORES\b)/i.test(question)){
+        const variable = "Es un trámite para la ejecución de obras de pequeña magnitud, excavaciones en vía pública, construcción de muro perimetral, apertura de puertas y ventanas, cambio total de cubiertas, acopio de material y escombros, bardas temporales en la vereda, arreglo de fachada o trabajos externos con uso de la acera, demolición de bloque o de unidad. Se puede realizar en la Sub Alcaldía a la que corresponde el predio. La duración del trámite si cumple todos los requisitos es de 30 días hábiles aproximadamente";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bTRABAJOS\b)(?=.*\bMENORES\b)/i.test(question)){
         const variable = "Es un trámite para la ejecución de obras de pequeña magnitud, excavaciones en vía pública, construcción de muro perimetral, apertura de puertas y ventanas, cambio total de cubiertas, acopio de material y escombros, bardas temporales en la vereda, arreglo de fachada o trabajos externos con uso de la acera, demolición de bloque o de unidad. Se puede realizar en la Sub Alcaldía a la que corresponde el predio. La duración del trámite si cumple todos los requisitos es de 30 días hábiles aproximadamente";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1759,7 +1786,14 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }if(/^(?=.*\bDONDE\b)(?=.*\bVISADO\b)(?=.*\bEQUIPAMIENTOS\b)(?=.*\bPUBLICOS\b)(?=.*\bPRIVADOS\b)/i.test(question)){
+    }if(/^(?=.*\bCOMO\b)(?=.*\bVISADO\b)(?=.*\bEQUIPAMIENTOS\b)(?=.*\bPUBLICOS\b)(?=.*\bPRIVADOS\b)/i.test(question)){
+        const variable = "Es un trámite a realizar cuando se requiere la aprobación del plano arquitectónico de anteproyecto de equipamientos público y privados.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }
+    if(/^(?=.*\bDONDE\b)(?=.*\bVISADO\b)(?=.*\bEQUIPAMIENTOS\b)(?=.*\bPUBLICOS\b)(?=.*\bPRIVADOS\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1795,6 +1829,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bVISADO\b)(?=.*\bESTACION\b)(?=.*\bSERVICIO\b)(?=.*\bSURTIDOR\b)/i.test(question)){
+        const variable = "Es un trámite a para visar un anteproyecto de construcción de estación de servicio o surtidor, e puede realizar en la Sub Alcaldía a la que corresponde el predio Se puede realizar en la Sub Alcaldía a la que corresponde el predio";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bVISADO\b)(?=.*\bESTACION\b)(?=.*\bSERVICIO\b)(?=.*\bSURTIDOR\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
@@ -1820,6 +1860,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bESPACIOS\b)(?=.*\bPUBLICOS\b)/i.test(question)){
+        const variable = "Es un trámite para solicitar autorización eventual cuando una persona natural, institución, agrupación, organización o empresa, requiera utilizar en forma temporal algún espacio público municipal para actividades con fines o sin fines de lucro: instalación de circos, parques de diversiones o la realización de kermeses, ferias u otras actividades similares";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bESPACIOS\b)(?=.*\bPUBLICOS\b)/i.test(question)){
         const variable = "Es un trámite para solicitar autorización eventual cuando una persona natural, institución, agrupación, organización o empresa, requiera utilizar en forma temporal algún espacio público municipal para actividades con fines o sin fines de lucro: instalación de circos, parques de diversiones o la realización de kermeses, ferias u otras actividades similares";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1855,6 +1901,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bVISACION\b)(?=.*\bMINUTAS\b)/i.test(question)){
+        const variable = "es cuando se desea obtener el visado de una minuta, se puede realizar en la Sub Alcaldía a la que corresponde el predio";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bVISACION\b)(?=.*\bMINUTAS\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
@@ -1880,6 +1932,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bSELLO\b)(?=.*\bSECO\b)/i.test(question)){
+        const variable = "es cuando se desea obtener sello seco en testimonios protocolizados y/o en minutas con reconocimiento de firmas para su registro en Derechos Reales. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bSELLO\b)(?=.*\bSECO\b)/i.test(question)){
         const variable = "es cuando se desea obtener sello seco en testimonios protocolizados y/o en minutas con reconocimiento de firmas para su registro en Derechos Reales. ";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1915,6 +1973,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bAVALUO\b)(?=.*\bINMUEBLE\b)/i.test(question)){
+        const variable = "Es un trámite a realizarse por Orden Judicial y/o Petición de Parte para atribuir el valor de un predio dentro de la jurisdicción del Gobierno Autónomo Municipal de Cochabamba con referencia a las tablas de valoración de superficie construida, antigüedad, categoría y zona homogénea de valor de terreno y edificaciones definidos y actualizados por el Gobierno Autónomo Municipal de Cochabamba. Se puede realizar en la Sub Alcaldía a la que corresponde el predio";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bAVALUO\b)(?=.*\bINMUEBLE\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
@@ -1940,6 +2004,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bNUMERACION\b)(?=.*\bDOMICILIARIA\b)/i.test(question)){
+        const variable = "Es un trámite a realizarse cuando desee obtener el número de domicilio para identificación física de su inmueble. Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bNUMERACION\b)(?=.*\bDOMICILIARIA\b)/i.test(question)){
         const variable = "Es un trámite a realizarse cuando desee obtener el número de domicilio para identificación física de su inmueble. Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -1975,6 +2045,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bDERECHO\b)(?=.*\bPROPIETARIO\b)/i.test(question)){
+        const variable = "Es un trámite a realizar para obtener documentos legalizados para uso exclusivo en el Gobierno Autónomo Municipal de Cochabamba";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bDERECHO\b)(?=.*\bPROPIETARIO\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
@@ -2005,6 +2081,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bREGULARIZACION\b)(?=.*\bLOTE\b)/i.test(question)){
+        const variable = "Trámite a realizar cuando se requiere regularizar un lote de terreno ubicado en área urbanizable hasta 1300 metros cuadrados que no cuenta con plano aprobado o que contando con ello, existe diferencia entre la superficie y dimensiones del plano aprobado. La unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bREQUISITOS\b)(?=.*\bREGULARIZACION\b)(?=.*\bLOTE\b)/i.test(question)){
         const variable = "Los requisitos son los siguientes 1. Valorados municipales, Derecho de admisión 111, DA 111 . 2. Folder municipal 3. Memorial dirigido al Sub Alcalde solicitando el trámite requerido con la firma del o los propietarios, copropietarios o apoderado. 4. títulos de propiedad registrado en Derechos Reales a nombre del actual propietario, fotocopia legalizada por la Sub Alcaldía a la que corresponde el predio En caso de estar matriculado, acompañar Folio Real. 5. Impuestos al día Proforma del sistema RUAT que evidencie el no adeudo tributario. 6. Plano de regularización de lote con número de registro proporcionado por el Colegio Profesional correspondiente, firmado y sellado por el Arquitecto con registro profesional, cinco ejemplares en papel bond. 7. Fotocopia del Carnet de identidad vigente del o los propietarios. 8. Licencia ambiental. 9. Fotocopia Carnet de identidad vigente del o los propietarios. 10. Plano de Lote o Urbanización aprobado fotocopia legalizada y o Registro Catastral y o Plano de construcción presentar en caso de existir para no pago de sesiones. 11. Carimbo, manzano de la Planimetría, superficie de ARCO y Resolución de aprobación de ARCO Solo para Distrito 9. 12. Tradición de la minuta, original o fotocopia legalizada Solo para Distrito 9. 13. Declaratoria de herederos en caso necesario y o Poder suficiente conferido por el o los propietarios del inmueble Solo para Distrito 9. ";
         combinedResponse = {
@@ -2018,6 +2100,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bANEXION\b)(?=.*\bLOTE\b)/i.test(question)){
+        const variable = "Es un Trámite realizado para anexar lotes contiguos, La unidad a cargo es la unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bANEXION\b)(?=.*\bLOTE\b)/i.test(question)){
         const variable = "Es un Trámite realizado para anexar lotes contiguos, La unidad a cargo es la unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía.";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -2053,6 +2141,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bSUBDIVISION\b)(?=.*\bLOTE\b)/i.test(question)){
+        const variable = "Es un Trámite realizado para subdividir un lote aprobado en otros menores. A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bSUBDIVISION\b)(?=.*\bLOTE\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
@@ -2083,6 +2177,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bPLANO\b)(?=.*\bLOTE\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando se tiene un plano de urbanización, subdivisión, anexión o regularización aprobado y se requiere una certificación de plano individual a nombre del actual propietario. A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía”, La duración del trámite llega a ser de 5 días hábiles aproximadamente, después de cumplirse todos los requisitos y no encontrarse observaciones";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bREQUISITO\b)(?=.*\bSUBDIVISION\b)(?=.*\bLOTE\b)/i.test(question)){
         const variable = "Los requisitos son los siguientes 1. Derecho de admisión 06 DA 06 de trámite. 2. Folder municipal 3. Solicitud verbal o nota simple. 4. títulos de propiedad registrado en Derechos Reales a nombre del actual propietario, fotocopia legalizada por la Sub Alcaldía a la que corresponde el predio En caso de estar matriculado, acompañar Folio Real. 5. Impuestos al día Proforma del sistema RUAT que evidencie el no adeudo tributario. 6. Plano del proyecto de certificación de lote, cinco ejemplares en papel bond y 1 copia digital en formato CAD, firmado y sellado por el Arquitecto. 7. Plano de lotes aprobado, fotocopia legalizada 8. Certificación. ";
         combinedResponse = {
@@ -2107,7 +2207,14 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }if(/^(?=.*\bDONDE\b)(?=.*\bRESOLUCIONES\b)(?=.*\bCOMPLEMENTARIAS\b)/i.test(question)){
+    }if(/^(?=.*\bCOMO\b)(?=.*\bRESOLUCIONES\b)(?=.*\bCOMPLEMENTARIAS\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando se tiene algún dato que está errado dentro la Resolución Administrativa Municipal, y debe modificarse, en ese caso se emite una Resolución Complementaria. A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }
+    if(/^(?=.*\bDONDE\b)(?=.*\bRESOLUCIONES\b)(?=.*\bCOMPLEMENTARIAS\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -2132,6 +2239,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bUSO\b)(?=.*\bSUELO\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando se desee obtener una certificación de cualidades físicas urbanas de un territorio o sitio urbano definido para un determinado uso A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía.”,La duración del trámite llega a ser de 15 días hábiles aproximadamente, después de cumplirse todos los requisitos y no encontrarse observaciones";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bUSO\b)(?=.*\bSUELO\b)/i.test(question)){
         const variable = "Es un Trámite a realizar cuando se desee obtener una certificación de cualidades físicas urbanas de un territorio o sitio urbano definido para un determinado uso A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía.”,La duración del trámite llega a ser de 15 días hábiles aproximadamente, después de cumplirse todos los requisitos y no encontrarse observaciones";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -2167,6 +2280,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bFIJACION\b)(?=.*\bLINEA\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando se requiere establecer la línea y nivel para la construcción del cordón y acera de un predio que tenga o no plano aprobado, A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bFIJACION\b)(?=.*\bLINEA\b)/i.test(question)){
         const variable = "Se puede realizar en la Sub Alcaldía a la que corresponde el predio.";
         combinedResponse = {
@@ -2192,6 +2311,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bFIJACION\b)(?=.*\bRASANTE\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando no se cuenta con plano aprobado y se requiere establecer la rasante municipal y se desconoce la ubicación de las estacas respecto a la vía o vías colindantes; o que teniendo plano aprobado se ha modificado la rasante.Se requiere verificar una superficie de lote con o sin plano aprobado para conocer con exactitud su superficie, dimensiones de sus límites y posibles afectaciones en relación con la vía o vías colindantes. Se puede realizar en la Sub Alcaldía a la que corresponde el predio";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bFIJACION\b)(?=.*\bRASANTE\b)/i.test(question)){
         const variable = "Es un Trámite a realizar cuando no se cuenta con plano aprobado y se requiere establecer la rasante municipal y se desconoce la ubicación de las estacas respecto a la vía o vías colindantes; o que teniendo plano aprobado se ha modificado la rasante.Se requiere verificar una superficie de lote con o sin plano aprobado para conocer con exactitud su superficie, dimensiones de sus límites y posibles afectaciones en relación con la vía o vías colindantes. Se puede realizar en la Sub Alcaldía a la que corresponde el predio";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -2227,6 +2352,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bVISADO\b)(?=.*\bCONSTRUCCION\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando se tiene un predio ubicado en área urbana con plano de lote aprobado y se desea construir una edificación mayor a tres plantas de uno o más bloques. A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bVISADO\b)(?=.*\bCONSTRUCCION\b)/i.test(question)){
         const variable = "Sub Alcaldía a la que corresponde el predio. Si el predio se encuentra en el Área de preservación Histórica centro Histórico los trámites deberán ser presentados en las Oficinas del Departamento de Patrimonio Territorial  Dirección de Planeamiento Pasaje Sucre.";
         combinedResponse = {
@@ -2252,6 +2383,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bCONSTRUCCION\b)(?=.*\bVIVIENDA\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar para la aprobación de un proyecto de construcción o edificación de vivienda unifamiliar o más unidades de vivienda en un lote hasta tres plantas. Acargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bCONSTRUCCION\b)(?=.*\bVIVIENDA\b)/i.test(question)){
         const variable = "Es un Trámite a realizar para la aprobación de un proyecto de construcción o edificación de vivienda unifamiliar o más unidades de vivienda en un lote hasta tres plantas. Acargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -2287,6 +2424,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bREMODELACION\b)(?=.*\bVIVIENDA\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar cuando se tiene plano de construcción aprobado y se desea realizar modificaciones funcionales y/o de volumetría o se requiere realizar una ampliación a la edificación, siempre y cuando la altura total construida (incluyendo la ampliación) sea hasta tres plantas.A cargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bREMODELACION\b)(?=.*\bVIVIENDA\b)/i.test(question)){
         const variable = " En la Sub Alcaldía a la que corresponde el predio. Si el predio se encuentra en el Área de preservación Histórica (centro Histórico) los trámites deberán ser presentados en las Oficinas del Departamento de Patrimonio Territorial – Dirección de Planeamiento (Pasaje Sucre).";
         combinedResponse = {
@@ -2317,6 +2460,12 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bCONSTRUCCION\b)(?=.*\bEDIFICIO\b)/i.test(question)){
+        const variable = "Es un Trámite a realizar para la aprobación de un proyecto de construcción de una edificación superior a tres plantas, cuando usted posee un predio ubicado en área urbana con plano de lote aprobado. Acargo de la Unidad de Urbanismo y Trámites Administrativos correspondiente a la Sub Alcaldía";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }if(/^(?=.*\bDONDE\b)(?=.*\bCONSTRUCCION\b)(?=.*\bEDIFICIO\b)/i.test(question)){
         const variable = "En la Sub Alcaldía a la que corresponde el predio. Si el predio se encuentra en el Área de preservación Histórica (centro Histórico) los trámites deberán ser presentados en las Oficinas del Departamento de Patrimonio Territorial – Dirección de Planeamiento (Pasaje Sucre).";
         combinedResponse = {
@@ -2342,6 +2491,12 @@ export async function GET(req) {
             content: `${variable}`,
         };
     }if(/^(?=.*\bQUE\b)(?=.*\bTRANSFERENCIA\b)(?=.*\bINMUEBLE\b)/i.test(question)){
+        const variable = "Los requisitos son los siguientes: 1. original y copia de la declaración jurada aprobada del sistema de visación de minuta de inmuebles. 2. fotocopia del comprobante de pago de impuestos a la propiedad del bien inmueble de la última gestión. 3. original de la minuta de compraventa o documento privado con reconocimiento de firmas. 4. fotocopia de la cédula de identidad del comprador (en caso de no tener registro en el padrón municipal de contribuyente. 5. fotocopia de cédula de identidad a color. 6. 1 foto 3 por 3 fondo rojo. 7. fotocopia de la cédula de identidad del vendedor. 8. título de propiedad y folio real legalizado por la sub alcaldía correspondiente. 9. plano del bien inmueble aprobado por la sub alcaldía correspondiente o el departamento de normas urbanas y rurales (propiedad horizontal), original y fotocopia. 10. registro catastral emitido por la comuna correspondiente (original y fotocopia). 11. en caso de existir poder notariado del comprador y/o vendedor fotocopia legalizada de la notaría de fe pública. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCOMO\b)(?=.*\bTRANSFERENCIA\b)(?=.*\bINMUEBLE\b)/i.test(question)){
         const variable = "Los requisitos son los siguientes: 1. original y copia de la declaración jurada aprobada del sistema de visación de minuta de inmuebles. 2. fotocopia del comprobante de pago de impuestos a la propiedad del bien inmueble de la última gestión. 3. original de la minuta de compraventa o documento privado con reconocimiento de firmas. 4. fotocopia de la cédula de identidad del comprador (en caso de no tener registro en el padrón municipal de contribuyente. 5. fotocopia de cédula de identidad a color. 6. 1 foto 3 por 3 fondo rojo. 7. fotocopia de la cédula de identidad del vendedor. 8. título de propiedad y folio real legalizado por la sub alcaldía correspondiente. 9. plano del bien inmueble aprobado por la sub alcaldía correspondiente o el departamento de normas urbanas y rurales (propiedad horizontal), original y fotocopia. 10. registro catastral emitido por la comuna correspondiente (original y fotocopia). 11. en caso de existir poder notariado del comprador y/o vendedor fotocopia legalizada de la notaría de fe pública. ";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
@@ -2479,7 +2634,55 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "Para disminuir el número de vehículos que circulan en la zona crítica de la ciudad, facilitar la circulación de vehículos en el área central, posibilitar un eficiente servicio de transporte de pasajeros minimizando los problemas de congestionamiento vial y los tiempos de desplazamiento y disminuir la contaminación ambiental provocada por la emisión de gases de escape de vehículos por el congestionamiento vial.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bAREA\b)(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "a restricción de ingreso y circulación de vehículos al área central de la ciudad está limitada por las siguientes vías Avenida Oquendo, Circuito Bolivia Oeste, Avenida 6 de Agosto, Avenida Ayacucho, Corredor San Sebastián, Avenida Aroma, Calle Junín, Calle Gral. Achá, Avenida Ayacucho, Avenida Rafael Urquidi, Avenida Ramón Rivero y cierre con la Avenida Oquendo. La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bNUMERO\b)(?=.*\bPLACA\b)/i.test(question)){
+        const variable = "Día Lunes no puede ingresar si el último número de su placa es cero y uno, día Martes no puede ingresar si el último número de su placa es dos y tres, día miércoles no puede ingresar si el último número de su placa es cuatro y  cinco, día jueves no puede ingresar si el último número de su placa es seis y siete, día viernes no puede ingresar si el último número de su placa es ocho y nueve.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bLUNES\b)/i.test(question)){
+        const variable = "No puede ingresar si el último número de su placa es cero y uno";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bMARTES\b)/i.test(question)){
+        const variable = "No puede ingresar si el último número de su placa es dos y tres.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bMIERCOLES\b)/i.test(question)){
+        const variable = "No puede ingresar si el último número de su placa es cuatro y cinco.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bJUEVES\b)/i.test(question)){
+        const variable = "No puede ingresar si el último número de su placa es cuatro y cinco.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bLUNES\b)/i.test(question)){
+        const variable = "";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    } 
     /*if(/^(?=.*\bQUE\b)(?=.*\bTRANSFERENCIA\b)(?=.*\bINMUEBLE\b)/i.test(question)){
         const variable = "";
         combinedResponse = {
