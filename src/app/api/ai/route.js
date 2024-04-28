@@ -174,7 +174,13 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION":{
         content:" Es un tramite a realizar cuando se requiere urbanizar un terreno de su propiedad con superficie a 1300 metros cuadrados, con caracter previo al diseno de los planos definitivos del proyecto de urbanizacion, debe solicitar al Gobierno Autonomo Municipal de Cochabamba la visacion de los planos del anteproyecto.",
     },
+    "COMO HAGO EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION":{
+        content:" Es un tramite a realizar cuando se requiere urbanizar un terreno de su propiedad con superficie a 1300 metros cuadrados, con caracter previo al diseno de los planos definitivos del proyecto de urbanizacion, debe solicitar al Gobierno Autonomo Municipal de Cochabamba la visacion de los planos del anteproyecto.",
+    },
     "DONDE SE REALIZA EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION":{
+        content:"Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION":{
         content:"Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS COSTOS DEL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION":{
@@ -183,7 +189,13 @@ const cochabambaExamples = {
     "DONDE SE REALIZA EL TRAMITE DE APROBACION DEL PLANO DE REMODELACION AMPLIACION, REGULARIZACION Y/O SUSTITUCION DE EDIFICIO ":{ 
         content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO EL TRAMITE DE APROBACION DEL PLANO DE REMODELACION AMPLIACION, REGULARIZACION Y/O SUSTITUCION DE EDIFICIO ":{ 
+        content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "QUE ES LA APROBACION DEL PLANO DE REMODELACION AMPLIACION, REGULARIZACION Y/O SUSTITUCION DE EDIFICIO": {
+        content:" Es un tramite a realizar cuando se tiene plano de construccion aprobado y se desea realizar modificaciones funcionales y/o de volumetria o se requiera realizar una ampliacion a la edificacion (mayor a tres plantas), para ello se debe solicitar la aprobacion de remodelacion o ampliacion segun el caso. El presente tramite tambien es aplicable en el caso que se desee realizar la regularizacion de una edificacion construida que cumple la normativa vigente. Tambien se aplica el tramite en caso que se requiera sustituir un plano de construccion aprobado por otro proyecto, siempre y cuando no este construida la edificacion.", 
+    },
+    "COMO HAGO LA APROBACION DEL PLANO DE REMODELACION AMPLIACION, REGULARIZACION Y/O SUSTITUCION DE EDIFICIO": {
         content:" Es un tramite a realizar cuando se tiene plano de construccion aprobado y se desea realizar modificaciones funcionales y/o de volumetria o se requiera realizar una ampliacion a la edificacion (mayor a tres plantas), para ello se debe solicitar la aprobacion de remodelacion o ampliacion segun el caso. El presente tramite tambien es aplicable en el caso que se desee realizar la regularizacion de una edificacion construida que cumple la normativa vigente. Tambien se aplica el tramite en caso que se requiera sustituir un plano de construccion aprobado por otro proyecto, siempre y cuando no este construida la edificacion.", 
     },
     "CUALES SON LOS COSTOS DEL TRAMITE DE APROBACION DEL PLANO DE REMODELACION AMPLIACION,REGULARIZACION Y/O SUSTITUCION DE EDIFICIO ":{
@@ -198,7 +210,12 @@ const cochabambaExamples = {
     "QUE ES LA APROBACION DEL PLANO DE VERJA": {
         content:" Es un tramite para aprobar un proyecto de construccion de verja.",
     },
+    "COMO HAGO LA APROBACION DEL PLANO DE VERJA": {
+        content:" Es un tramite para aprobar un proyecto de construccion de verja.",
+    },
     "DONDE SE REALIZA LA APROBACION DEL PLANO DE VERJA ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO LA APROBACION DEL PLANO DE VERJA ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS COSTOS DE LA APROBACION DEL PLANO DE VERJA ":{content:"El costo por metro lineal del frente del terreno es de 2 bolivianos, el costo de fijacion de rasante por metro lineal del subdistrito 1 al 16 es de 1 boliviano y del subdistrito 17 al 32 es de 1.5 bolivianos por metro lineal",
     },
@@ -210,6 +227,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA EL TRAMITE DE AUTORIZACION DE TRABAJOS MENORES":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO EL TRAMITE DE AUTORIZACION DE TRABAJOS MENORES":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "CUALES SON LOS COSTOS DE AUTORIZACION DE TRABAJOS MENORES":{
         content:"Son varios los costos por la autorizacion de trabajos menores, el costo de tramite por construccion de habitacion provisional es de 50 bolivianos por Unidad, por excavaciones en via publica el costo es de 100 Bolivianos, el costo por construccion de muro perimetral es de 0.50 bolivianos por metro cuadrado, por la apertura o colocado de puertas y ventanas es de 20 Bolivianos la unidad.",
     },
@@ -220,6 +239,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA EL VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO EL VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "CUALES SON LOS COSTOS DEL VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:"el precio del visado del plano es de 30 bolivianos, el precio de Derecho de admision 18 (DA 18) es de 5 bolivianos y el timbre de 10 bolivianos por cada fotocopia. ",
     },
     "CUALES SON LOS REQUISITOS DEL VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:"Los requisitos son: Visado del plano arquitectonico, derecho de admision 18 (DA 18) del tramite, formulario de solicitud del tramite, certificado catastral, planos arquitectonicos de anteproyecto, plano de lote aprobado, fotocopia de  Carnet de identidad vigente. ",
@@ -227,6 +248,8 @@ const cochabambaExamples = {
     "CUANTO ES LA DURACION DEL VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:" La duracion del tramite si cumple todos los requisitos es de 30 dias habiles aproximadamente.",
     },
     "DONDE SE REALIZA LA APROBACION DE PLANO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO LA APROBACION DE PLANO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS COSTOS DE LA APROBACION DE PLANO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS ":{ content:"Los timbres tienen un costo de 20 Bolivianos, folder municipal a 5 bolivianos, reposicion de boleta comprobante y folder 6 bolivianos, tasa de aprobacion area residencial por metro cuadrado es de 2 bolivianos, tasa de aprobacion plano estructural por metro cubico a 2 bolivianos ",
     },
@@ -236,6 +259,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA EL VISADO DE PLANO DE ANTEPROYECTO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO EL VISADO DE PLANO DE ANTEPROYECTO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "CUALES SON LOS COSTOS DEL VISADO DE PLANO DE ANTEPROYECTO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:"El precio de derecho de admision 20 (DA  20) es de 46 bolivianos, folder municipal 5 bolivianos, la tasa de verificacion de superficies de 0.50 bolivianos por metro cuadrado, tasa de fijacion de rasante por metro lineal en el subdistrito 1 al 16 de 1 boliviano el metro lineal y del sub distrito 17 al 32 de 1.5 bolivianos el metro lineal ",
     },
     "CUALES SON LOS REQUISITOS DEL VISADO DE PLANO DE ANTEPROYECTO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:"Son el derecho de admision 20 (DA 20), folder municipal, memorial dirigido al sub alcalde, plano de lote aprobado, titulo de propiedad, impuestos al dia, fotocopia Carnet de identidad vigente, solvencia fiscal, anteproyecto de construccion, certificado de ubicacion. ",
@@ -243,6 +268,8 @@ const cochabambaExamples = {
     "CUANTO ES LA DURACION DEL VISADO DE PLANO DE ANTEPROYECTO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:" La duracion del tramite si cumple todos los requisitos es de 30 dias habiles aproximadamente.",
     },
     "DONDE SE REALIZA LA APROBACION DEL PLANO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    }, 
+    "DONDE HAGO LA APROBACION DEL PLANO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     }, 
     "CUALES SON LOS COSTOS DE LA APROBACION DEL PLANO DE ESTACION DE SERVICIO Y SURTIDORES ":{ content:"El precio de derecho de admision 21 (DA 21) es de 46 bolivianos, folder municipal 5 bolivianos, tasa de aprobacion por metro cuadrado a 3 bolivianos, tasa de aprobacion por metro cuadrado de edificaciones 2 bolivianos, tasa de fijacion de rasante 1.5 bolivianos por metro lineal.",
     }, 
@@ -252,6 +279,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA LA AUTORIZACION EVENTUAL PARA USO DE ESPACIOS PUBLICOS PARA ACTIVIDADES CIVICAS, RELIGIOSAS, TRADICIONALES, CULTURALES Y OTROS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO LA AUTORIZACION EVENTUAL PARA USO DE ESPACIOS PUBLICOS PARA ACTIVIDADES CIVICAS, RELIGIOSAS, TRADICIONALES, CULTURALES Y OTROS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "CUALES SON LOS COSTOS DE LA AUTORIZACION EVENTUAL PARA USO DE ESPACIOS PUBLICOS PARA ACTIVIDADES CIVICAS, RELIGIOSAS, TRADICIONALES, CULTURALES Y OTROS ":{ content:"Para las actividades sin fines de lucro no tiene costo, para las actividades con fines de lucro el derecho de admision 21 (DA 21) es de 20 bolivianos, folder municipal a 5 bolivianos,y el costo de comprobante de pago de patente.",
     },
     "CUALES SON LOS REQUISITOS DE LA AUTORIZACION EVENTUAL PARA USO DE ESPACIOS PUBLICOS PARA ACTIVIDADES CIVICAS, RELIGIOSAS, TRADICIONALES, CULTURALES Y OTROS ":{ content:"Los requisitos son solicitud escrita dirigida al sub alcalde indicado, carta notariada de compromiso de entrega en las mismas condiciones, contrato de emsa, derecho de admision 22 (DA 22), folder municipal, comprobante de pago de la patente. ",
@@ -259,6 +288,8 @@ const cochabambaExamples = {
     "CUANTO ES LA DURACION DE LA AUTORIZACION EVENTUAL PARA USO DE ESPACIOS PUBLICOS PARA ACTIVIDADES CIVICAS, RELIGIOSAS, TRADICIONALES, CULTURALES Y OTROS ":{ content:" La duracion del tramite si cumple todos los requisitos es de 2 dias habiles aproximadamente.",
     },
     "DONDE SE REALIZA LA VISACION TECNICA Y LEGAL DE MINUTAS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO LA VISACION TECNICA Y LEGAL DE MINUTAS ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS COSTOS DE LA VISACION TECNICA Y LEGAL DE MINUTAS ":{ content:" Los costos son, Tasa de visacion de predio, lote o inmueble ubicado en area urbana: Hasta 500 metros cuadrados de lote 25 Bolivianos, Hasta 500 metros cuadrados de lote con edificacion 40 Bolivianos, Mas de 501 metros cuadrados de lote 60 Bolivianos, Mas de 500 metros cuadrados de lote con edificacion 90 Bolivianos, Tasa de visacion de predio, lote o inmueble ubicado en area rural o rustica: Terreno de uso agricola, mayor a 5000 metros cuadrados 120 Bolivianos, Terrenos rusticos transferidos en su integridad 90 Bolivianos, Derecho de admision 23 (DA 23) de tramite 5 Bolivianos.",
     },
@@ -268,6 +299,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA EL SELLO SECO EN TESTIMONIOS Y/O MINUTAS CON RECONOCIMIENTO DE FIRMAS PARA SU REGISTRO EN DERECHOS REALES ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO EL SELLO SECO EN TESTIMONIOS Y/O MINUTAS CON RECONOCIMIENTO DE FIRMAS PARA SU REGISTRO EN DERECHOS REALES ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "CUALES SON LOS COSTOS DE SELLO SECO EN TESTIMONIOS Y/O MINUTAS CON RECONOCIMIENTO DE FIRMAS PARA SU REGISTRO EN DERECHOS REALES ":{ content:"El costo del timbre es de 10 Bolivianos",
     },
     "CUALES SON LOS REQUISITOS DE EL SELLO SECO EN TESTIMONIOS Y/O MINUTAS CON RECONOCIMIENTO DE FIRMAS PARA SU REGISTRO EN DERECHOS REALES ":{ content:"Los requisitos son solicitud, testimonio protocolizado, minuta de Transferencia con reconocimiento de firmas, formulario de pago de impuestos.",
@@ -275,6 +308,8 @@ const cochabambaExamples = {
     "CUANTO ES LA DURACION DE EL SELLO SECO EN TESTIMONIOS Y/O MINUTAS CON RECONOCIMIENTO DE FIRMAS PARA SU REGISTRO EN DERECHOS REALES ":{ content:" La duracion del tramite si cumple todos los requisitos es Inmediato.",
     },
     "DONDE SE REALIZA LA ATENCION DE DENUNCIAS SOBRE PROBLEMAS TECNICOS Y LEGALES DE CONSTRUCCION ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO LA ATENCION DE DENUNCIAS SOBRE PROBLEMAS TECNICOS Y LEGALES DE CONSTRUCCION ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS COSTOS DE LA ATENCION DE DENUNCIAS SOBRE PROBLEMAS TECNICOS Y LEGALES DE CONSTRUCCION ":{ content:"No tiene costo alguno",
     },
@@ -284,6 +319,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA EL AVALUO DE INMUEBLE CON ORDEN JUDICIAL Y/O A PETICION DE PARTE ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
+    "DONDE HAGO EL AVALUO DE INMUEBLE CON ORDEN JUDICIAL Y/O A PETICION DE PARTE ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
     "CUALES SON LOS COSTOS DEL AVALUO DE INMUEBLE CON ORDEN JUDICIAL Y/O A PETICION DE PARTE ":{ content:" El costo es: derecho de admision 24 (DA 24) de tramite 27 Bolivianos, Folder municipal 5 Bolivianos, Tasa por verificacion de superficie en lote 0.50 Bolivianos por metro cuadrado, Tasa por verificacion de superficie en inmueble edificado 0.80 Bolivianos por metro cuadrado, Certificacion 30 Bolivianos, Certificacion (segun Ordenanza Municipal Numero 2636, valido solo para el Distrito 9) 50 Bolivianos ",
     },
     "CUALES SON LOS REQUISITOS DEL AVALUO DE INMUEBLE CON ORDEN JUDICIAL Y/O A PETICION DE PARTE ":{ content:"Los requisitos son Requerimiento fiscal. Plano aprobado del predio, escritura publica o folio real, fotocopia de Carnet de identidad vigente.",
@@ -291,6 +328,8 @@ const cochabambaExamples = {
     "CUANTO ES LA DURACION DEL AVALUO DE INMUEBLE CON ORDEN JUDICIAL Y/O A PETICION DE PARTE ":{ content:" De no encontrarse observaciones es de 10 dias habiles aproximadamente.",
     },
     "DONDE SE REALIZA LA NUMERACION DOMICILIARIA ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO LA NUMERACION DOMICILIARIA ":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS COSTOS LA NUMERACION DOMICILIARIA ":{ content:" El costo es: derecho de admision 25 (DA 25) de tramite es 25 Bolivianos, Folder municipal 5 Bolivianos, Tasa por numeracion de domicilio 17 Bolivianos",
     },
@@ -300,6 +339,8 @@ const cochabambaExamples = {
     },
     "DONDE SE REALIZA LA LEGALIZACION DE COPIA DE DOCUMENTOS DE DERECHO PROPIETARIO (TESTIMONIO, Y OTROS), RESOLUCIONES, INFORMES, PLANOS APROBADOS, IMPUESTOS Y OTROS PARA USO EXCLUSIVO DEL Gobierno Autonomo Municipal de Cochabamba":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     }, 
+    "DONDE HAGO LA LEGALIZACION DE COPIA DE DOCUMENTOS DE DERECHO PROPIETARIO (TESTIMONIO, Y OTROS), RESOLUCIONES, INFORMES, PLANOS APROBADOS, IMPUESTOS Y OTROS PARA USO EXCLUSIVO DEL Gobierno Autonomo Municipal de Cochabamba":{ content:" Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    }, 
     "CUALES SON LOS COSTOS LA LEGALIZACION DE COPIA DE DOCUMENTOS DE DERECHO PROPIETARIO (TESTIMONIO, Y OTROS), RESOLUCIONES, INFORMES, PLANOS APROBADOS, IMPUESTOS Y OTROS PARA USO EXCLUSIVO DEL Gobierno Autonomo Municipal de Cochabamba":{ content:" El costo es de 10 bolivianos el timbre por cada documento legalizado y de 5 bolivianos por cada impuesto legalizado.",
     }, 
     "CUALES SON LOS REQUISITOS DE LA LEGALIZACION DE COPIA DE DOCUMENTOS DE DERECHO PROPIETARIO (TESTIMONIO, Y OTROS), RESOLUCIONES, INFORMES, PLANOS APROBADOS, IMPUESTOS Y OTROS PARA USO EXCLUSIVO DEL Gobierno Autonomo Municipal de Cochabamba":{ content:"Los requisitos son solicitud, documento a legalizar, timbre municipal por cada documento",
@@ -308,8 +349,7 @@ const cochabambaExamples = {
     },
     "QUE ES EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION": {
         content:" Es un tramite a realizar cuando se requiere urbanizar un terreno de una propiedad con superficie a 1300 metros cuadrados, con caracter previo al diseno de los planos definitivos del proyecto de urbanizacion, debe solicitar al Gobierno Autonomo Municipal de Cochabamba. la visacion de los planos del anteproyecto.",
-    },
-    
+    }, 
     "QUE ES LA AUTORIZACION DE TRABAJOS MENORES": {content:" Es un tramite para la ejecucion de obras de pequena magnitud, excavaciones en via publica, construccion de muro perimetral, apertura de puertas y ventanas, cambio total de cubiertas, acopio de material y escombros, bardas temporales en la vereda, arreglo de fachada o trabajos externos con uso de la acera, demolicion de bloque o de unidad.",
     }, 
     "QUE ES VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS": {content:" Es un tramite a realizar cuando se requiere la aprobacion del plano arquitectonico de anteproyecto de equipamientos publico y privados.",
@@ -335,10 +375,42 @@ const cochabambaExamples = {
     "QUE ES LA LEGALIZACION DE COPIA DE DOCUMENTOS DE DERECHO PROPIETARIO (TESTIMONIO, Y OTROS), RESOLUCIONES, INFORMES, PLANOS APROBADOS, IMPUESTOS Y OTROS PARA USO EXCLUSIVO DEL Gobierno Autonomo Municipal de Cochabamba":{
         content:"Es un tramite a realizar para obtener documentos legalizados para uso exclusivo en el Gobierno Autonomo Municipal de Cochabamba"
     }, 
+    //COMO HAGO
+    "COMO HAGO EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION": {
+        content:" Es un tramite a realizar cuando se requiere urbanizar un terreno de una propiedad con superficie a 1300 metros cuadrados, con caracter previo al diseno de los planos definitivos del proyecto de urbanizacion, debe solicitar al Gobierno Autonomo Municipal de Cochabamba. la visacion de los planos del anteproyecto.",
+    }, 
+    "COMO HAGO LA AUTORIZACION DE TRABAJOS MENORES": {content:" Es un tramite para la ejecucion de obras de pequena magnitud, excavaciones en via publica, construccion de muro perimetral, apertura de puertas y ventanas, cambio total de cubiertas, acopio de material y escombros, bardas temporales en la vereda, arreglo de fachada o trabajos externos con uso de la acera, demolicion de bloque o de unidad.",
+    }, 
+    "COMO HAGO VISADO DE ANTEPROYECTO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS": {content:" Es un tramite a realizar cuando se requiere la aprobacion del plano arquitectonico de anteproyecto de equipamientos publico y privados.",
+    },  
+    "COMO HAGO LA APROBACION DE PLANO DE EQUIPAMIENTOS PUBLICOS Y PRIVADOS": {content:" Es un tramite a realizar cuando se requiere la aprobacion del plano arquitectonico de anteproyecto de equipamientos publicos y privado",
+    },
+    "COMO HAGO EL VISADO DE PLANO DE ANTEPROYECTO DE ESTACION DE SERVICIO Y SURTIDORES": {content:" Es un tramite a para visar un anteproyecto de construccion de estacion de servicio o surtidor",
+    },
+    "COMO HAGO LA APROBACION DEL PLANO DE ESTACION DE SERVICIO Y SURTIDORES": {content:" Es un tramite realizado para aprobar un proyecto de construccion de estacion de servicio o surtidor",
+    }, 
+    "COMO HAGO LA AUTORIZACION EVENTUAL PARA USO DE ESPACIOS PUBLICOS PARA ACTIVIDADES CIVICAS, RELIGIOSAS, TRADICIONALES, CULTURALES Y OTROS": {content:" Es un tramite para solicitar autorizacion eventual cuando una persona natural, institucion, agrupacion, organizacion o empresa, requiera utilizar en forma temporal algun espacio publico municipal para actividades con fines o sin fines de lucro: instalacion de circos, parques de diversiones o la realizacion de kermeses, ferias u otras actividades similares ",
+    },
+    "COMO HAGO LA VISACION TECNICA Y LEGAL DE MINUTAS": {content:" es cuando se desea obtener el visado de una minuta",
+    },
+    "COMO HAGO SELLO SECO EN TESTIMONIOS Y/O MINUTAS CON RECONOCIMIENTO DE FIRMAS PARA SU REGISTRO EN DERECHOS REALES": {content:" es cuando se desea obtener sello seco en testimonios protocolizados y/o en minutas con reconocimiento de firmas para su registro en Derechos Reales. ",
+    },
+    "COMO HAGO LA ATENCION DE DENUNCIAS SOBRE PROBLEMAS TECNICOS Y LEGALES DE CONSTRUCCION": {content:" es cuando se desee realizar una denuncia para la solucion de problemas tecnicos y legales de construccion.",
+    },
+    "COMO HAGO EL AVALUO DE INMUEBLE CON ORDEN JUDICIAL Y/O A PETICION DE PARTE": {content:" Es un tramite a realizarse por Orden Judicial y/o Peticion de Parte para atribuir el valor de un predio dentro de la jurisdiccion del Gobierno Autonomo Municipal de Cochabamba con referencia a las tablas de valoracion de superficie construida, antiguedad, categoria y zona homogenea de valor de terreno y edificaciones definidos y actualizados por el Gobierno Autonomo Municipal de Cochabamba.",
+    },
+    "COMO HAGO LA NUMERACION DOMICILIARIA": {content:" Es un tramite a realizarse cuando desee obtener el numero de domicilio para identificacion fisica de su inmueble.",
+    }, 
+    "COMO HAGO LA LEGALIZACION DE COPIA DE DOCUMENTOS DE DERECHO PROPIETARIO (TESTIMONIO, Y OTROS), RESOLUCIONES, INFORMES, PLANOS APROBADOS, IMPUESTOS Y OTROS PARA USO EXCLUSIVO DEL Gobierno Autonomo Municipal de Cochabamba":{
+        content:"Es un tramite a realizar para obtener documentos legalizados para uso exclusivo en el Gobierno Autonomo Municipal de Cochabamba"
+    }, 
     "CUAL ES LA UNIDAD RESPONSABLE DE LA EJECUCION DEL TRAMITE": {
         content: "Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia y Direccion de Urbanismo y Servicios Municipales.",
     },
     "DONDE SE REALIZA EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION": {
+        content:"Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE DE VISADO ANTEPROYECTO DE URBANIZACION": {
         content:"Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DEL TRAMITE DE VISADO DE ANTEPROYECTO DE URBANIZACION": {
@@ -400,10 +472,16 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE APROBACION DEL PLANO DE URBANIZACION": {
         content: "Es un tramite a realizar cuando se requiere aprobar un proyecto de terreno mayor a 1300 metros cuadrados que ha cumplido con el visado de anteproyecto de acuerdo a normativas usadas",
     },
+    "COMO HAGO EL TRAMITE DE APROBACION DEL PLANO DE URBANIZACION": {
+        content: "Es un tramite a realizar cuando se requiere aprobar un proyecto de terreno mayor a 1300 metros cuadrados que ha cumplido con el visado de anteproyecto de acuerdo a normativas usadas",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APROBACION DEL PLANO DE URBANIZACION ": {
         content: "Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
     },
     "DONDE SE REALIZA EL TRAMITE APROBACION DEL PLANO DE URBANIZACION": {
+        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE APROBACION DEL PLANO DE URBANIZACION": {
         content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DE LA APROBACION DEL PLANO DE URBANIZACION": {
@@ -425,10 +503,16 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE APROBACION DEL PLANO DE REGULARIZACION DE LOTE": {
         content: "Tramite a realizar cuando se requiere regularizar un lote de terreno ubicado en area urbanizable hasta 1300 metros cuadrados que no cuenta con plano aprobado o que contando con ello, existe diferencia entre la superficie y dimensiones del plano aprobado.",
     },
+    "COMO HAGO EL TRAMITE DE APROBACION DEL PLANO DE REGULARIZACION DE LOTE": {
+        content: "Tramite a realizar cuando se requiere regularizar un lote de terreno ubicado en area urbanizable hasta 1300 metros cuadrados que no cuenta con plano aprobado o que contando con ello, existe diferencia entre la superficie y dimensiones del plano aprobado.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APROBACION DEL PLANO DE REGULARIZACION DE LOTE": {
         content: "Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
     },
     "DONDE SE REALIZA EL TRAMITE": {
+        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE": {
         content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DE LA APROBACION DEL PLANO DE REGULARIZACION DE LOTE": {
@@ -449,10 +533,16 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE APROBACION DEL PLANO DE ANEXION DE LOTE": {
         content: "Es un Tramite realizado para anexar lotes contiguos.",
     },
+    "COMO HAGOEL TRAMITE DE APROBACION DEL PLANO DE ANEXION DE LOTE": {
+        content: "Es un Tramite realizado para anexar lotes contiguos.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APROBACION DEL PLANO DE ANEXION DE LOTE": {
         content: "Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
     },
     "DONDE SE REALIZA EL TRAMITE": {
+        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE": {
         content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DE LA APROBACION DEL PLANO DE ANEXION DE LOTE": {
@@ -477,10 +567,16 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE CERTIFICACION DE PLANO DE LOTE": {
         content: "Es un Tramite a realizar cuando se tiene un plano de urbanizacion, subdivision, anexion o regularizacion aprobado y se requiere una certificacion de plano individual a nombre del actual propietario.",
     },
+    "COMO HAGO EL TRAMITE CERTIFICACION DE PLANO DE LOTE": {
+        content: "Es un Tramite a realizar cuando se tiene un plano de urbanizacion, subdivision, anexion o regularizacion aprobado y se requiere una certificacion de plano individual a nombre del actual propietario.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION DE LOTE": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
     },
     "DONDE SE REALIZA EL TRAMITE": {
+        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE": {
         content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DE LA CERTIFICACION DE PLANO DE LOTE": {
@@ -498,10 +594,16 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE CERTIFICACION DE RESOLUCIONES COMPLEMENTARIAS": {
         content: "Es un Tramite a realizar cuando se tiene algun dato que esta errado dentro la Resolucion Administrativa Municipal, y debe modificarse, en ese caso se emite una Resolucion Complementaria.",
     },
+    "COMO HAGO EL TRAMITE CERTIFICACION DE RESOLUCIONES COMPLEMENTARIAS": {
+        content: "Es un Tramite a realizar cuando se tiene algun dato que esta errado dentro la Resolucion Administrativa Municipal, y debe modificarse, en ese caso se emite una Resolucion Complementaria.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION DE RESOLUCIONES COMPLEMENTARIAS": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
     },
     "DONDE SE REALIZA EL TRAMITE": {
+        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
+    },
+    "DONDE HAGO EL TRAMITE": {
         content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DE LAS RESOLUCIONES COMPLEMENTARIAS": {
@@ -523,11 +625,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE CERTIFICACIONES VARIOS": {
         content: "Es un Tramite a realizar cuando se desee obtener una certificacion de datos tecnicos, legales y/o administrativos en aplicacion de la Normativa Urbana",
     },
+    "COMO HAGO EL TRAMITE DE CERTIFICACIONES VARIOS": {
+        content: "Es un Tramite a realizar cuando se desee obtener una certificacion de datos tecnicos, legales y/o administrativos en aplicacion de la Normativa Urbana",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACIONES VARIOS": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DEL TRAMITE CERTIFICACIONES VARIOS": {
         content: "Los requisitos son los siguientes: REQUISITOS: 1.   Derecho de admision 07 (DA 07) de tramite 2.    Folder municipal 3.    Memorial dirigido al sub alcalde solicitando la certificacion.4.    titulos de propiedad registrado en Derechos Reales a nombre del actual propietario, fotocopia legalizada por la Sub Alcaldia a la que corresponde el predio (En caso de estar matriculado, acompanar Folio Real). 5.    Proforma del sistema RUAT que evidencie el no adeudo tributario. 6.    Plano de lote aprobado, fotocopia legalizada. 7.    Fotocopia del Carnet de identidad del solicitante. 8.    Inspeccion (de ser necesario). 9.    Certificacion. 10.  Certificacion (segun Ordenanza Municipal Numero 2636, valido solo para el Distrito 9).",
@@ -547,11 +649,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE CERTIFICACION DE USO DE SUELO": {
         content: "Es un Tramite a realizar cuando se desee obtener una certificacion de cualidades fisicas urbanas de un territorio o sitio urbano definido para un determinado uso.",
     },
+    "COMO HAGO EL TRAMITE DE CERTIFICACION DE USO DE SUELO": {
+        content: "Es un Tramite a realizar cuando se desee obtener una certificacion de cualidades fisicas urbanas de un territorio o sitio urbano definido para un determinado uso.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION DE USO DE SUELO": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DEL TRAMITE CERTIFICACION DE USO DE SUELO": {
         content: "Los requisitos son los siguientes: REQUISITOS: 1.    Derecho de admision 09 (DA 09) . 2.    Folder municipal 3.    Memorial dirigido al sub alcalde solicitando el tramite. 4.    titulos de propiedad registrado en Derechos Reales a nombre del actual propietario, fotocopia legalizada por la Sub Alcaldia a la que corresponde el predio (En caso de estar matriculado, acompanar Folio Real). 5.    Impuesto al dia Proforma del sistema RUAT que evidencie el no adeudo tributario. 6.    Plano de lote aprobado, fotocopia legalizada.7.    Plano de Lote geo referenciado preferentemente por el Instituto Geografico Militar (solo en caso de area Rural). 8.    Fotocopia Carnet de identidad vigente del o los propietarios.9.    Certificacion. 10.  Certificacion (segun Ordenanza Municipal Numero 2636, valido solo para el Distrito 9).11.  Inspeccion",
@@ -571,11 +673,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE FIJACION DE LINEA A NIVEL": {
         content: "Es un Tramite a realizar cuando se requiere establecer la linea y nivel para la construccion del cordon y acera de un predio que tenga o no plano aprobado.",
     },
+    "COMO HAGO EL TRAMITE DE FIJACION DE LINEA A NIVEL": {
+        content: "Es un Tramite a realizar cuando se requiere establecer la linea y nivel para la construccion del cordon y acera de un predio que tenga o no plano aprobado.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE FIJACION DE LINEA A NIVEL": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DEL TRAMITE FIJACION DE LINEA A NIVEL": {
         content: "Los requisitos son los siguientes: REQUISITOS: 1.    Memorial dirigido al Sub Alcalde solicitando el tramite requerido con la firma del o los propietarios, copropietarios o apoderado. 2.    Impuestos al dia (Proforma del sistema RUAT que evidencie el no adeudo tributario). 3.    Plano de Lote Aprobado, fotocopia legalizada (si tiene). 4.    Titulo de propiedad registrado en Derechos Reales a nombre del actual propietario, fotocopia legalizada por la Sub Alcaldia a la que corresponde el predio (En caso de estar matriculado, acompanar Folio Real) (Si tiene). 5.    Fotocopia del Carnet de identidad vigente del o los propietarios. 6.    Derecho de admision 10 (DA 10) del tramite. 7.    Folder municipal. 8.  Inspeccion topografica.",
@@ -595,11 +697,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE DE FIJACION DE RASANTE, VERIFICACION DE MEDIDAS Y SUPERFICIE DE LOTE": {
         content: "Es un Tramite a realizar cuando:· No se cuenta con plano aprobado y se requiere establecer la rasante municipal y se desconoce la ubicacion de las estacas respecto a la via o vias colindantes; o que teniendo plano aprobado se ha modificado la rasante.·         Se requiere verificar una superficie de lote con o sin plano aprobado para conocer con exactitud su superficie, dimensiones de sus limites y posibles afectaciones en relacion con la via o vias colindantes.",
     },
+    "COMO HAGO EL TRAMITE DE FIJACION DE RASANTE, VERIFICACION DE MEDIDAS Y SUPERFICIE DE LOTE": {
+        content: "Es un Tramite a realizar cuando:· No se cuenta con plano aprobado y se requiere establecer la rasante municipal y se desconoce la ubicacion de las estacas respecto a la via o vias colindantes; o que teniendo plano aprobado se ha modificado la rasante.·         Se requiere verificar una superficie de lote con o sin plano aprobado para conocer con exactitud su superficie, dimensiones de sus limites y posibles afectaciones en relacion con la via o vias colindantes.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE FIJACION DE RASANTE, VERIFICACION DE MEDIDAS Y SUPERFICIE DE LOTE": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "Se puede realizar en la Sub Alcaldia a la que corresponde el predio.",
     },
     "CUALES SON LOS REQUISITOS DE FIJACION DE RASANTE, VERIFICACION DE MEDIDAS Y SUPERFICIE DE LOTE": {
         content: "Los requisitos son los siguientes: REQUISITOS:1.    Memorial dirigido al Sub Alcalde solicitando el tramite requerido con la firma del o los propietarios, copropietarios o apoderado.2.    Impuestos al dia (Proforma del sistema RUAT que evidencie el no adeudo tributario).3.    Plano de Lote Aprobado, fotocopia legalizada (si tiene).4.    Titulo de propiedad registrado en Derechos Reales a nombre del actual propietario, fotocopia legalizada por la Sub Alcaldia a la que corresponde el predio (En caso de estar matriculado, acompanar Folio Real).5.    Plano demostrativo de la ubicacion del lote en detalle (en caso de no contar con Plano de Lote aprobado).6.    Fotocopia del carnet de identidad vigente del o los propietarios.7.    Derecho de admision 11 (DA 11) de tramite.8.    Folder municipal.9.    Formulario tecnico Numero 012.10.  Certificacion.11.  Inspeccion.",
@@ -619,11 +721,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE VISADO DE ANTEPROYECTO DE CONSTRUCCION DE EDIFICIO O VIVIENDA MULTIFAMILIAR": {
         content: "Es un Tramite a realizar cuando se tiene un predio ubicado en area urbana con plano de lote aprobado y se desea construir una edificacion mayor a tres plantas de uno o mas bloques.",
     },
+    "COMO HAGO EL TRAMITE VISADO DE ANTEPROYECTO DE CONSTRUCCION DE EDIFICIO O VIVIENDA MULTIFAMILIAR": {
+        content: "Es un Tramite a realizar cuando se tiene un predio ubicado en area urbana con plano de lote aprobado y se desea construir una edificacion mayor a tres plantas de uno o mas bloques.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE VISADO DE ANTEPROYECTO DE CONSTRUCCION DE EDIFICIO O VIVIENDAS MULTIFAMILIAR": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "Sub Alcaldia a la que corresponde el predio. Si el predio se encuentra en el Area de preservacion Historica (centro Historico) los tramites deberan ser presentados en las Oficinas del Departamento de Patrimonio Territorial – Direccion de Planeamiento (Pasaje Sucre).",
     },
     "CUALES SON LOS REQUISITOS DE VISADO DE ANTEPROYECTO DE CONSTRUCCION DE EDIFICIO O VIVIENDA MULTIFAMILIAR": {
         content: "Los requisitos son los siguientes:REQUISITOS:1.    Visado del plano arquitectonico.2.    Derecho de admision 12 (DA 12 )del tramite.3.    Formulario de Solicitud de Tramite, firmado por el propietario segun Certificado o Registro Catastral y/o firmado por el apoderado segun Poder o Carta Notariada.4.    Certificado Catastral o Registro Catastral Computarizado a nombre del actual propietario emitido por la Direccion de Informacion Geografica y Catastro.5.    Planos arquitectonicos de Anteproyecto (tres ejemplares y en medio magnetico formato PDF), firmado y sellado por el Arquitecto con registro profesional correspondiente.6.    Plano de Lote aprobado, fotocopia legalizada.7.    Fotocopia del carnet de identidad vigente del o los propietarios.",
@@ -643,11 +745,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE VIVIENDA UNIFAMILIAR O MULTIFAMILIAR": {
         content: "Es un Tramite a realizar para la aprobacion de un proyecto de construccion o edificacion de vivienda unifamiliar o mas unidades de vivienda en un lote hasta tres plantas.",
     },
+    "COMO HAGO EL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE VIVIENDA UNIFAMILIAR O MULTIFAMILIAR": {
+        content: "Es un Tramite a realizar para la aprobacion de un proyecto de construccion o edificacion de vivienda unifamiliar o mas unidades de vivienda en un lote hasta tres plantas.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE VIVIENDA UNIFAMILIAR O MULTIFAMILIAR": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "Sub Alcaldia a la que corresponde el predio. Si el predio se encuentra en el Area de preservacion Historica (centro Historico) los tramites deberan ser presentados en las Oficinas del Departamento de Patrimonio Territorial – Direccion de Planeamiento (Pasaje Sucre).",
     },
     "CUALES SON LOS REQUISITOS DE APROBACION DEL PLANO DE CONSTRUCCION DE VIVIENDA UNIFAMILIAR O MULTIFAMILIAR": {
         content: "Los requisitos son los siguientes:REQUISITOS:1.    Derecho de admision 13 (DA 13) de tramite.2.    Folder Municipal.3.    Formulario de Solicitud de Tramite, firmado por el propietario segun Certificado o Registro Catastral y/o firmado por el apoderado segun Carta o Poder Notariado.4.    Plano de lote aprobado, fotocopia legalizada.5.    Plano del proyecto de construccion, cinco ejemplares en papel bond y 1 copia digital en formato CAD), firmado y sellado por el Arquitecto.6.    Fotocopia Carnet de identidad vigente del o los propietarios.7.    Certificado Catastral o Registro Catastral Computarizado a nombre del actual propietario emitido por la Direccion de Informacion Geografica y Catastro.",
@@ -668,11 +770,11 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE APROBACION DEL PLANO DE REMODELACION Y AMPLIACION DE VIVIENDA": {
         content: "Es un Tramite a realizar cuando se tiene plano de construccion aprobado y se desea realizar modificaciones funcionales y/o de volumetria o se requiere realizar una ampliacion a la edificacion, siempre y cuando la altura total construida (incluyendo la ampliacion) sea hasta tres plantas.",
     },
+    "COMO HAGO EL TRAMITE APROBACION DEL PLANO DE REMODELACION Y AMPLIACION DE VIVIENDA": {
+        content: "Es un Tramite a realizar cuando se tiene plano de construccion aprobado y se desea realizar modificaciones funcionales y/o de volumetria o se requiere realizar una ampliacion a la edificacion, siempre y cuando la altura total construida (incluyendo la ampliacion) sea hasta tres plantas.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE APROBACION DEL PLANO DE REMODELACION DE AMPLIACION DE VIVIENDA": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "En la Sub Alcaldia a la que corresponde el predio. Si el predio se encuentra en el Area de preservacion Historica (centro Historico) los tramites deberan ser presentados en las Oficinas del Departamento de Patrimonio Territorial – Direccion de Planeamiento (Pasaje Sucre).",
     },
     "CUALES SON LOS REQUISITOS DEL TRAMITE APROBACION DEL PLANO DE REMODELACION Y AMPLIACION DE VIVIENDA": {
         content: "Los requisitos son los siguientes:REQUISITOS:1.    Derecho de admision 14 (DA 14) de tramite.2.    Folder Municipal.3.    Fotocopia Carnet de identidad vigente del o los propietarios.4.    Formulario de Solicitud de Tramite, firmado por el propietario segun Certificado o Registro Catastral y/o firmado por el apoderado segun Poder o Carta Notariada.5.    Proforma del sistema RUAT que evidencie el no adeudo tributario.6.    Plano de lote aprobado, fotocopia legalizada.7.    Plano del proyecto de ampliacion o remodelacion, cinco ejemplares en papel bond y 1 copia digital en formato CAD), firmado y sellado por el Arquitecto.8.    Certificado Catastral o Registro Catastral Computarizado a nombre del actual propietario emitido por la Direccion de Informacion Geografica y Catastro.",
@@ -689,11 +791,14 @@ const cochabambaExamples = {
     "QUE ES EL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE EDIFICIO": {
         content: "Es un Tramite a realizar para la aprobacion de un proyecto de construccion de una edificacion superior a tres plantas, cuando usted posee un predio ubicado en area urbana con plano de lote aprobado.",
     },
+    "COMO HAGO EL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE EDIFICIO": {
+        content: "Es un Tramite a realizar para la aprobacion de un proyecto de construccion de una edificacion superior a tres plantas, cuando usted posee un predio ubicado en area urbana con plano de lote aprobado.",
+    },
+    "EL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE EDIFICIO": {
+        content: "Es un Tramite a realizar para la aprobacion de un proyecto de construccion de una edificacion superior a tres plantas, cuando usted posee un predio ubicado en area urbana con plano de lote aprobado.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE EDIFICIO": {
         content: "La Unidad de Urbanismo y Tramites Administrativos correspondiente a la Sub Alcaldia."
-    },
-    "DONDE SE REALIZA EL TRAMITE": {
-        content: "En la Sub Alcaldia a la que corresponde el predio. Si el predio se encuentra en el Area de preservacion Historica (centro Historico) los tramites deberan ser presentados en las Oficinas del Departamento de Patrimonio Territorial – Direccion de Planeamiento (Pasaje Sucre).",
     },
     "CUALES SON LOS REQUISITOS DEL TRAMITE APROBACION DEL PLANO DE CONSTRUCCION DE EDIFICIO": {
         content: "Los requisitos son los siguientes: REQUISITOS:1.    Formulario de Solicitud de Tramite, firmado por el propietario segun Certificado o Registro Catastral y/o firmado por el apoderado segun Poder o Carta Notariada.2.    Certificado Catastral o Registro Catastral Computarizado a nombre del actual propietario emitido por la Direccion de Informacion Geografica y Catastro.3.    Impuestos al dia (Proforma del sistema RUAT que evidencie el no adeudo tributario).4.    Fotocopia Carnet de identidad vigente del o los propietarios.5.    Licencia Ambiental o constancia de inicio de tramite debidamente acreditado por la secretaria Departamental de los Derechos de la Madre Tierra.6.    Planos Arquitectonicos de Anteproyecto visado por el Gobierno Autonomo Municipal de Cochabamba.7.    Plano del proyecto de construccion, cinco ejemplares en papel bond y 1 copia digital en formato CAD), firmado y sellado por el Arquitecto.8.    Planos del Proyecto Estructural, si sobrepasa los 3 pisos, tres ejemplares y en medio magnetico formato pdf, con numero de registro del proyecto proporcionado por el Colegio Profesional correspondiente y firmado y sellado por el Ingeniero con registro profesional. Tambien debe anexarse la Memoria de Calculo y el Estudio de Suelos.9.    Plano de Instalacion Hidrosanitaria, tres ejemplares y en medio magnetico formato pdf, con numero de registro del proyecto proporcionado por el Colegio Profesional correspondiente y firmado y sellado por el Ingeniero con registro profesional. Tambien debe anexarse la Memoria de Calculo.10.  Plano de Instalacion Electrica, tres ejemplares y en medio magnetico formato pdf, con numero de registro del proyecto proporcionado por el Colegio Profesional correspondiente y firmado y sellado por el Ingeniero con registro profesional. Tambien debe anexarse la Memoria de Calculo.11.  Plano de Instalaciones Especiales cuando corresponda (Ejm: gas, aire acondicionado, ascensores, etc.), tres ejemplares y en medio magnetico formato pdf, con numero de registro del proyecto proporcionado por el Colegio Profesional correspondiente y firmado y sellado por el profesional con registro que lo acredite. Tambien debe anexarse la Memoria de Calculo.",
@@ -907,7 +1012,8 @@ const cochabambaExamples = {
     },
     "QUE ES Y EN QUE CONSISTE EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content:"Es el registro de la informacion del bien inmueble tecnico y legal, ya sea en la creacion de una nueva unidad catastral o cuando existan cambios en el estado fisico del inmueble, propietarios, nuevas construcciones o mejora de las mismas.",
     },
-
+    "COMO HAGO Y EN QUE CONSISTE EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content:"Es el registro de la informacion del bien inmueble tecnico y legal, ya sea en la creacion de una nueva unidad catastral o cuando existan cambios en el estado fisico del inmueble, propietarios, nuevas construcciones o mejora de las mismas.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "la Direccion de Administracion Geografica y Catastro.",
     },
 
@@ -924,6 +1030,8 @@ const cochabambaExamples = {
     "QUE ES EN QUE CONSISTE EL TRAMITE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "Es el documento de una o varias personas naturales o juridicas, que representa su propiedad sobre un bien inmueble a traves de la asignacion de un codigo catastral. Cuenta con informacion legal y tecnica, cuando existe un cambio en el predio al regimen de propiedad horizontal, proporcionando nuevos codigos catastrales y el empadronamiento al Registro Unico para Administracion Tributaria Municipal de las nuevas unidades catastrales.",
     },
     
+    "COMO HAGO EN QUE CONSISTE EL TRAMITE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "Es el documento de una o varias personas naturales o juridicas, que representa su propiedad sobre un bien inmueble a traves de la asignacion de un codigo catastral. Cuenta con informacion legal y tecnica, cuando existe un cambio en el predio al regimen de propiedad horizontal, proporcionando nuevos codigos catastrales y el empadronamiento al Registro Unico para Administracion Tributaria Municipal de las nuevas unidades catastrales.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA":{content: "Direccion de Administracion Geografica y Catastro",
     },
     
@@ -936,7 +1044,8 @@ const cochabambaExamples = {
 
     "QUE ES  EN QUE CONSISTE EL TRAMITE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "Es el Certificado Catastral que establece la ubicacion exacta, y la superficie del predio de acuerdo a la documentacion presentada, esta certificacion sirve para la correccion de ubicacion y superficies en el Folio Real. brinda informacion de datos tecnicos actuales del predio que coinciden con el plano aprobado por el Gobierno Autonomo Municipal de Cochabamba y el Plano de Informacion de Datos Espaciales (IDE).",
     },
-    
+    "COMO HAGO EN QUE CONSISTE EL TRAMITE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "Es el Certificado Catastral que establece la ubicacion exacta, y la superficie del predio de acuerdo a la documentacion presentada, esta certificacion sirve para la correccion de ubicacion y superficies en el Folio Real. brinda informacion de datos tecnicos actuales del predio que coinciden con el plano aprobado por el Gobierno Autonomo Municipal de Cochabamba y el Plano de Informacion de Datos Espaciales (IDE).",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE PARA EL TRAMITE DE CERTIFICACION DE DATOS TECNICOS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
     },
     
@@ -977,7 +1086,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION) EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, BRINDA SEGURIDAD JURIDICA A LOS ADMINISTRADOS Y DA CONSTANCIA DEL REGISTRO DE UN BIEN INMUEBLE EN EL CATASTRO,CONSIGNANDO LA ULTIMA INFORMACION TECNICA, LEGAL.",
     },
-    
+    "COMO HAGO EL TRAMITE CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION) EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, BRINDA SEGURIDAD JURIDICA A LOS ADMINISTRADOS Y DA CONSTANCIA DEL REGISTRO DE UN BIEN INMUEBLE EN EL CATASTRO,CONSIGNANDO LA ULTIMA INFORMACION TECNICA, LEGAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DE TRAMITE CERTIFICACION CATASTRAL (PARA PROCESO DE ADJUDICACION) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
     },
     
@@ -989,7 +1099,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE CERTIFICACION CATASTRAL (PARA LA REGULARIZACION DEL DERECHO PROPIETARIO LEY 247) EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, QUE MUESTRA LA ULTIMA INFORMACION TECNICO, LEGAL QUE REGISTRA EL INMUEBLE O UNIDAD CATASTRAL DENTRO DEL MUNICIPIO, ADEMAS DE CERTIFICAR LA EXISTENCIA DE CONSTRUCCIONES HABITADAS EN EL PERIODO ESTABLECIDO DE ACUERDO A LA NORMATIVA.",
     },
-    
+    "COMO HAGO EL TRAMITE DE CERTIFICACION CATASTRAL (PARA LA REGULARIZACION DEL DERECHO PROPIETARIO LEY 247) EN COCHABAMBA": {content: "ES EL DOCUMENTO OFICIAL POR EL CUAL EL GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA, QUE MUESTRA LA ULTIMA INFORMACION TECNICO, LEGAL QUE REGISTRA EL INMUEBLE O UNIDAD CATASTRAL DENTRO DEL MUNICIPIO, ADEMAS DE CERTIFICAR LA EXISTENCIA DE CONSTRUCCIONES HABITADAS EN EL PERIODO ESTABLECIDO DE ACUERDO A LA NORMATIVA.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE CERTIFICACION CATASTRAL (PARA LA REGULARIZACION DEL DERECHO PROPIETARIO LEY 247) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1054,7 +1165,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE LEGALIZACION DE RESOLUCION  EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS RESOLUCIONES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO  DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
     },
-    
+    "COMO HAGO EL TRAMITE LEGALIZACION DE RESOLUCION  EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS RESOLUCIONES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO  DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE  DEL TRAMITE LEGALIZACION DE RESOLUCION  EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
     },
     
@@ -1067,7 +1179,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
     },
-    
+    "COMO HAGO EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1079,7 +1192,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "ES EL PROCEDIMIENTO QUE PERMITE LA TRANSCRIPCION DE UN REGISTRO CATASTRAL ANTIGUO ENTREGADO POR EL INTERESADO DENTRO EL SISTEMA DE GESTION CATASTRAL, ACOMPANADA DE LA DOCUMENTACION DE RESPALDO.",
     },
-    
+    "COMO HAGO EL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "ES EL PROCEDIMIENTO QUE PERMITE LA TRANSCRIPCION DE UN REGISTRO CATASTRAL ANTIGUO ENTREGADO POR EL INTERESADO DENTRO EL SISTEMA DE GESTION CATASTRAL, ACOMPANADA DE LA DOCUMENTACION DE RESPALDO.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1104,7 +1218,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "ES UNA ACTUALIZACION REALIZADA CON UN AVALUO DE DECLARACION JURADA PARA LA MODIFICACION DE DATOS TECNICOS,PREVIA REVISION DIGITAL EN LA BASE DE DATOS DE CATASTRO Y USO DE HERRAMIENTAS INFORMATICAS.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "ES UNA ACTUALIZACION REALIZADA CON UN AVALUO DE DECLARACION JURADA PARA LA MODIFICACION DE DATOS TECNICOS,PREVIA REVISION DIGITAL EN LA BASE DE DATOS DE CATASTRO Y USO DE HERRAMIENTAS INFORMATICAS.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE EL TRAMITE DE ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1117,7 +1232,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "CONSISTE EN LA VERIFICACION Y ACTUALIZACION DE DATOS EN EL SISTEMA CATASTRAL, SISTEMA RUAT Y SISTEMA DE  VISACION DE TRANSFERENCIA.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "CONSISTE EN LA VERIFICACION Y ACTUALIZACION DE DATOS EN EL SISTEMA CATASTRAL, SISTEMA RUAT Y SISTEMA DE  VISACION DE TRANSFERENCIA.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASISTENCIA TRAMITE DE VISACION DE MINUTAS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1132,7 +1248,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA": {content: "CONSISTE EN DAR SOLUCION A CASOS CON OBSERVACIONES EN EL SISTEMA RUAT, SOBRE LAS SUPERFICIES DEL PAGO IMPOSITIVO. SOLUCIONES COORDINADAS CON EL SOPORTE RUAT NACIONAL.",
     },
-    
+    "COMO HAGO EL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA": {content: "CONSISTE EN DAR SOLUCION A CASOS CON OBSERVACIONES EN EL SISTEMA RUAT, SOBRE LAS SUPERFICIES DEL PAGO IMPOSITIVO. SOLUCIONES COORDINADAS CON EL SOPORTE RUAT NACIONAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APERTURA DE CASOS SIREC (RUAT) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
 
@@ -1144,7 +1261,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS)  EN COCHABAMBA": {content: "(MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, Y MAL EMPADRONADOS. ES EL ANALISIS TECNICO Y LEGAL PARA DAR SOLUCIONES A MATRICES QUE SIGUEN GENERANDO IMPUESTOS, FRACCIONAMIENTOS QUE NO SE DESLINDAN DEL NUMERO MATRIZ, NUMEROS DE INMUEBLES DUPLICADOS QUE LE GENERAN DOBLE TRIBUTACION, Y MAL EMPADRONADOS POR ERRORES TECNICOS POR INSUFICIENCIA DE DATOS.",
     },
-    
+    "COMO HAGO EL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS)  EN COCHABAMBA": {content: "(MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, Y MAL EMPADRONADOS. ES EL ANALISIS TECNICO Y LEGAL PARA DAR SOLUCIONES A MATRICES QUE SIGUEN GENERANDO IMPUESTOS, FRACCIONAMIENTOS QUE NO SE DESLINDAN DEL NUMERO MATRIZ, NUMEROS DE INMUEBLES DUPLICADOS QUE LE GENERAN DOBLE TRIBUTACION, Y MAL EMPADRONADOS POR ERRORES TECNICOS POR INSUFICIENCIA DE DATOS.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE BAJAS DE CODIGOS (MATRICIALES, FRACCIONAMIENTOS, DUPLICADOS, MAL EMPADRONADOS)  EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1155,6 +1273,8 @@ const cochabambaExamples = {
     },
      
     "QUE ES EL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PROPIEDAD HORIZONTAL  EN DERECHOS REALES EN COCHABAMBA": {content: "EN ESTE TRAMITE SE DEMUESTRA EL VALOR CATASTRAL DEL PREDIO Y CONSTRUCCION DEL INMUEBLE PARA DISTINTOS TIPOS DE TRAMITES EN DDRR.",
+    },
+    "COMO HAGO EL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PROPIEDAD HORIZONTAL  EN DERECHOS REALES EN COCHABAMBA": {content: "EN ESTE TRAMITE SE DEMUESTRA EL VALOR CATASTRAL DEL PREDIO Y CONSTRUCCION DEL INMUEBLE PARA DISTINTOS TIPOS DE TRAMITES EN DDRR.",
     },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE AVALUO CATASTRAL PARA REGISTRO DE PROPIEDAD HORIZONTAL  EN DERECHOS REALES EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
@@ -1168,7 +1288,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "ES EL DESGLOSE DE SUPERFICIES EN PROPIEDADES HORIZONTALES, DONDE INCLUYE EL AREA PRIVADA COMO EL AREA COMUN DE LAS CONSTRUCCIONES.",
     },
-    
+    "COMO HAGO EL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "ES EL DESGLOSE DE SUPERFICIES EN PROPIEDADES HORIZONTALES, DONDE INCLUYE EL AREA PRIVADA COMO EL AREA COMUN DE LAS CONSTRUCCIONES.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1180,7 +1301,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA)  EN COCHABAMBA": {content: "ES LA ACTUALIZACION REAL DE LOS DATOS TECNICOS PARA SU RESPECTIVO PAGO IMPOSITIVO, CON VERIFICACION EN SITIO.",
     },
-    
+    "COMO HAGO EL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA)  EN COCHABAMBA": {content: "ES LA ACTUALIZACION REAL DE LOS DATOS TECNICOS PARA SU RESPECTIVO PAGO IMPOSITIVO, CON VERIFICACION EN SITIO.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE AVALUO CATASTRAL A SOLICITUD DE PARTE (BASE CIERTA)  EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1192,7 +1314,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, RESULTADO DE LAS NUEVAS APROBACIONES DE PLANOS.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, RESULTADO DE LAS NUEVAS APROBACIONES DE PLANOS.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (FUSION O FRACCIONAMIENTO) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1205,7 +1328,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "(NUEVOS SECTORIALES Y PLANIMETRIAS). ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, RESULTADO DE LAS NUEVAS APROBACIONES DE LOS SECTORIALES Y PLANIMETRIAS EN COORDINACION CON ORDENAMIENTO TERRITORIAL.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "(NUEVOS SECTORIALES Y PLANIMETRIAS). ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, RESULTADO DE LAS NUEVAS APROBACIONES DE LOS SECTORIALES Y PLANIMETRIAS EN COORDINACION CON ORDENAMIENTO TERRITORIAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (NUEVOS SECTORIALES Y PLANIMETRIAS) EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1217,7 +1341,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "ES EL AJUSTE SEGUN PLANOS APROBADOS, QUE DIFIEREN DE LOS FISICO CONSOLIDADO Y LA CORRECCION DE ALGUN TIPO DE INCONSISTENCIA.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "ES EL AJUSTE SEGUN PLANOS APROBADOS, QUE DIFIEREN DE LOS FISICO CONSOLIDADO Y LA CORRECCION DE ALGUN TIPO DE INCONSISTENCIA.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (ACTUALIZACION) EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1229,7 +1354,8 @@ const cochabambaExamples = {
      
     "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA ": {content: "ES LA DETERMINACION DE POLIGONOS EN CARTOGRAFIA DE PREDIOS DE MAYOR SUPERFICIE, PARA DAR CURSO AL PAGO DE IMPUESTOS Y TRAMITES ESPECIFICOS DE MI PLANO.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA ": {content: "ES LA DETERMINACION DE POLIGONOS EN CARTOGRAFIA DE PREDIOS DE MAYOR SUPERFICIE, PARA DAR CURSO AL PAGO DE IMPUESTOS Y TRAMITES ESPECIFICOS DE MI PLANO.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (GENERACION DE MATRICES) EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1242,7 +1368,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "SON POLIGONOS QUE SE ENCUENTRAN FUERA DE LA MANCHA URBANA.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "SON POLIGONOS QUE SE ENCUENTRAN FUERA DE LA MANCHA URBANA.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     "CUANTO ES LA DURACION DEL TRAMITE DE ASIGNACION DE GEO CODIGOS EN COCHABAMBA": {content: "INMEDIATO.",
@@ -1252,7 +1379,8 @@ const cochabambaExamples = {
     },
     "QUE ES EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content: "ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, A LA PRESENTACION DE UN PLANO REFERENCIAL.",
     },
-    
+    "COMO HAGO EL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content: "ES LA DETERMINACION DE UBICACION DE UN PREDIO EN CARTOGRAFIA, A LA PRESENTACION DE UN PLANO REFERENCIAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE ASIGNACION O ACTUALIZACION DE CODIGOS CATASTRALES (LEY 204 MI PLANO) EN COCHABAMBA": {content: "LA DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
     
@@ -1264,7 +1392,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "LA APROBACION DEL PLANO DE DIVISION EN PROPIEDAD HORIZONTAL ES EL PROCESO ADMINISTRATIVO POR EL CUAL EL O LOS PROPIETARIOS DE UN BIEN INMUEBLE, ADECUAN EL MISMO AL REGIMEN DE PROPIEDAD HORIZONTAL DE ACUERDO CON LAS DISPOSICIONES EMANADAS DE LA LEY NACIONAL DE PROPIEDAD HORIZONTAL DEL 30 DE DICIEMBRE DE 1949, EL CODIGO CIVIL Y LA NORMATIVA MUNICIPAL EN VIGENCIA.",
     },
-    
+    "COMO HAGO EL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "LA APROBACION DEL PLANO DE DIVISION EN PROPIEDAD HORIZONTAL ES EL PROCESO ADMINISTRATIVO POR EL CUAL EL O LOS PROPIETARIOS DE UN BIEN INMUEBLE, ADECUAN EL MISMO AL REGIMEN DE PROPIEDAD HORIZONTAL DE ACUERDO CON LAS DISPOSICIONES EMANADAS DE LA LEY NACIONAL DE PROPIEDAD HORIZONTAL DEL 30 DE DICIEMBRE DE 1949, EL CODIGO CIVIL Y LA NORMATIVA MUNICIPAL EN VIGENCIA.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "DEPARTAMENTO DE ADMINISTRACION URBANA-DIRECCION DE URBANISMO.",
     },
     "CUANTO ES LA DURACION DEL TRAMITE DE APROBACION DE PLANO DE DIVISION EN PROPIEDAD HORIZONTAL EN COCHABAMBA": {content:"15 DIAS HABILES.",
@@ -1274,7 +1403,8 @@ const cochabambaExamples = {
     
     "QUE ES EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "ES EL REGISTRO DE LA INFORMACION DEL BIEN INMUEBLE TECNICO Y LEGAL, YA SEA EN LA CREACION DE UNA NUEVA UNIDAD CATASTRAL O CUANDO EXISTAN CAMBIOS EN EL ESTADO FISICO DEL INMUEBLE, PROPIETARIOS, NUEVAS CONSTRUCCIONES O MEJORA DE LAS MISMAS.",
     },
-
+    "COMO HAGO EL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "ES EL REGISTRO DE LA INFORMACION DEL BIEN INMUEBLE TECNICO Y LEGAL, YA SEA EN LA CREACION DE UNA NUEVA UNIDAD CATASTRAL O CUANDO EXISTAN CAMBIOS EN EL ESTADO FISICO DEL INMUEBLE, PROPIETARIOS, NUEVAS CONSTRUCCIONES O MEJORA DE LAS MISMAS.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE REGISTRO CATASTRAL EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
 
@@ -1288,6 +1418,8 @@ const cochabambaExamples = {
 
     "QUE ES EL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "ES EL DOCUMENTO DE UNA O VARIAS PERSONAS NATURALES O JURIDICAS, QUE REPRESENTA SU PROPIEDAD SOBRE UN BIEN INMUEBLE A TRAVES DE LA ASIGNACION DE UN CODIGO CATASTRAL. CUENTA CON INFORMACION LEGAL Y TECNICA, CUANDO EXISTE UN CAMBIO EN EL PREDIO AL REGIMEN DE PROPIEDAD HORIZONTAL, PROPORCIONANDO NUEVOS CODIGOS CATASTRALES Y EL EMPADRONAMIENTO AL REGISTRO UNICO PARA ADMINISTRACION TRIBUTARIA MUNICIPAL DE LAS NUEVAS UNIDADES CATASTRALES.",
     },
+    "COMO HAGO EL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "ES EL DOCUMENTO DE UNA O VARIAS PERSONAS NATURALES O JURIDICAS, QUE REPRESENTA SU PROPIEDAD SOBRE UN BIEN INMUEBLE A TRAVES DE LA ASIGNACION DE UN CODIGO CATASTRAL. CUENTA CON INFORMACION LEGAL Y TECNICA, CUANDO EXISTE UN CAMBIO EN EL PREDIO AL REGIMEN DE PROPIEDAD HORIZONTAL, PROPORCIONANDO NUEVOS CODIGOS CATASTRALES Y EL EMPADRONAMIENTO AL REGISTRO UNICO PARA ADMINISTRACION TRIBUTARIA MUNICIPAL DE LAS NUEVAS UNIDADES CATASTRALES.",
+    },
 
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE REGISTRO CATASTRAL DE ADECUACION A PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
@@ -1300,7 +1432,8 @@ const cochabambaExamples = {
 
     "QUE ES EL TRAMITE DE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LOS PLANOS QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
     },
-
+    "COMO HAGO EL TRAMITE DE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LOS PLANOS QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, DE UN PREDIO EN ESPECIFICO.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE LEGALIZACION DE PLANOS (LOTE, CONSTRUCCION O UNIDAD DE PROPIEDAD HORIZONTAL EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
     },
 
@@ -1311,6 +1444,8 @@ const cochabambaExamples = {
     },
 
     "QUE ES EL TRAMITE DE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
+    "COMO HAGO EL TRAMITE DE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
     },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE LEGALIZACION DE PLANOS PH O URBANIZACION (LAMINA ENTERA) EN COCHABAMBA": {content: "ARCHIVO DE PLANOS.",
     },
@@ -1323,7 +1458,8 @@ const cochabambaExamples = {
 
     "QUE ES EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
     },
-
+    "COMO HAGO EL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "EL TRAMITE CONSISTE EN LA OBTENCION DE COPIAS LEGALIZADAS DE LAS LAMINAS ENTERAS DE LOS PLANOS DE URBANIZACIONES O PROPIEDADES HORIZONTALES QUE SE ENCUENTRAN CUSTODIADOS EN ARCHIVO DE PLANOS, PREVIA AUTORIZACION DE LA OTB O EL DIRECTORIO DE LA PROPIEDAD HORIZONTAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE PRE REVISION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
 
@@ -1335,7 +1471,9 @@ const cochabambaExamples = {
 
     "QUE ES LA TRANSCRIPCION EN COCHABAMBA": {content: "ES EL PROCEDIMIENTO QUE PERMITE LA TRANSCRIPCION DE UN REGISTRO CATASTRAL ANTIGUO ENTREGADO POR EL INTERESADO DENTRO EL SISTEMA DE GESTION CATASTRAL, ACOMPANADA DE LA DOCUMENTACION DE RESPALDO",
     },
-
+    
+    "COMO HAGO LA TRANSCRIPCION EN COCHABAMBA": {content: "ES EL PROCEDIMIENTO QUE PERMITE LA TRANSCRIPCION DE UN REGISTRO CATASTRAL ANTIGUO ENTREGADO POR EL INTERESADO DENTRO EL SISTEMA DE GESTION CATASTRAL, ACOMPANADA DE LA DOCUMENTACION DE RESPALDO",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL TRAMITE DE TRANSCRIPCION EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
     },
 
@@ -1348,7 +1486,8 @@ const cochabambaExamples = {
 
     "QUE ES LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA":{content: "ES UNA ACTUALIZACION REALIZADA CON UN AVALUO DE DECLARACION JURADA PARA LA MODIFICACION DE DATOS TECNICOS,PREVIA REVISION DIGITAL EN LA BASE DE DATOS DE CATASTRO Y USO DE HERRAMIENTAS INFORMATICAS.",
     },
-
+    "COMO HAGO LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA":{content: "ES UNA ACTUALIZACION REALIZADA CON UN AVALUO DE DECLARACION JURADA PARA LA MODIFICACION DE DATOS TECNICOS,PREVIA REVISION DIGITAL EN LA BASE DE DATOS DE CATASTRO Y USO DE HERRAMIENTAS INFORMATICAS.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DE LA ACTUALIZACION Y MODIFICACION DE DATOS TECNICOS EN SISTEMA RUAT EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO",
     },
 
@@ -1360,7 +1499,8 @@ const cochabambaExamples = {
 
     "QUE ES EL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "ES EL DESGLOSE DE SUPERFICIES EN PROPIEDADES HORIZONTALES, DONDE INCLUYE EL AREA PRIVADA COMO EL AREA COMUN DE LAS CONSTRUCCIONES.",
     },
-
+    "COMO HAGO EL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "ES EL DESGLOSE DE SUPERFICIES EN PROPIEDADES HORIZONTALES, DONDE INCLUYE EL AREA PRIVADA COMO EL AREA COMUN DE LAS CONSTRUCCIONES.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DEL DESGLOSE DE IMPUESTOS EN COCHABAMBA": {content: "DIRECCION DE ADMINISTRACION GEOGRAFICA Y CATASTRO.",
     },
 
@@ -1371,9 +1511,10 @@ const cochabambaExamples = {
     },
 
 
-    "¿QUE ES LA CRAM EN COCHABAMBA": {content: "ES EL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL QUE TIENE COMO FINALIDAD LA IMPLEMENTACION DE CONTROL Y VIGILANCIA AMBIENTAL DE ACTIVIDADES ECONOMICAS COMO PARTE DE LA GESTION AMBIENTAL MUNICIPAL.",
+    "QUE ES LA CRAM EN COCHABAMBA": {content: "ES EL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL QUE TIENE COMO FINALIDAD LA IMPLEMENTACION DE CONTROL Y VIGILANCIA AMBIENTAL DE ACTIVIDADES ECONOMICAS COMO PARTE DE LA GESTION AMBIENTAL MUNICIPAL.",
     },
-
+    "COMO HAGO LA CRAM EN COCHABAMBA": {content: "ES EL CERTIFICADO DE REGISTRO AMBIENTAL MUNICIPAL QUE TIENE COMO FINALIDAD LA IMPLEMENTACION DE CONTROL Y VIGILANCIA AMBIENTAL DE ACTIVIDADES ECONOMICAS COMO PARTE DE LA GESTION AMBIENTAL MUNICIPAL.",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE PARA EL TRAMITE MEDIOAMBIENTAL EN COCHABAMBA": {content: "EL DEPARTAMENTO DE GESTION ATMOSFERICA, CONTROL Y SEGUIMIENTO AMBIENTAL, DEPENDIENTE DE LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE.",
     },
 
@@ -1389,9 +1530,10 @@ const cochabambaExamples = {
     "CUALES SON LOS REQUISITOS PARA LA RENOVACION DE LA CRAM EN COCHABAMBA": {content: "LOS REQUISITOS SON EL REPRESENTANTE LEGAL DEBERA REALIZAR LA RENOVACION CADA DOS ANOS. NOTA ESCRITA A LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE CERTIFICADO DE REGISTRO AMBIENTAL ORIGINAL FOTOCOPIA DE CARNET DE IDENTIDAD FOTOCOPIA DE LICENCIA DE FUNCIONAMIENTO COMPROBANTE DE PAGO SEGUN CLASE 1  BOLIVIANOS. 150, CLASE 2  BOLIVIANOS 400.",
     },
     
-    "¿QUE ES LA RAI EN COCHABAMBA": {content: "ES EL REGISTRO AMBIENTAL INDUSTRIAL, ES UN PROCESO DE REGULACION AMBIENTAL DE LAS ACTIVIDADES DEL SECTOR INDUSTRIAL MANUFACTURERO, EN CUMPLIMIENTO DE LAS DISPOSICIONES DEL REGLAMENTO AMBIENTAL PARA EL SECTOR MANUFACTURERO (RASIM).",
+    "QUE ES LA RAI EN COCHABAMBA": {content: "ES EL REGISTRO AMBIENTAL INDUSTRIAL, ES UN PROCESO DE REGULACION AMBIENTAL DE LAS ACTIVIDADES DEL SECTOR INDUSTRIAL MANUFACTURERO, EN CUMPLIMIENTO DE LAS DISPOSICIONES DEL REGLAMENTO AMBIENTAL PARA EL SECTOR MANUFACTURERO (RASIM).",
     },
-
+    "COMO HAGO LA RAI EN COCHABAMBA": {content: "ES EL REGISTRO AMBIENTAL INDUSTRIAL, ES UN PROCESO DE REGULACION AMBIENTAL DE LAS ACTIVIDADES DEL SECTOR INDUSTRIAL MANUFACTURERO, EN CUMPLIMIENTO DE LAS DISPOSICIONES DEL REGLAMENTO AMBIENTAL PARA EL SECTOR MANUFACTURERO (RASIM).",
+    },
     "CUAL ES LA UNIDAD RESPONSABLE DE LA RAI EN COCHABAMBA": {content: "DEPARTAMENTO DE GESTION ATMOSFERICA, CONTROL Y SEGUIMIENTO AMBIENTAL, DEPENDIENTE DE LA SECRETARIA DE PLANIFICACION Y MEDIO AMBIENTE.",
     },
 
@@ -1402,9 +1544,10 @@ const cochabambaExamples = {
     },
 
 
-    "¿QUE ES UNA LICENCIA AMBIENTAL (L.A.) EN COCHABAMBA": {content: "ES EL DOCUMENTO JURIDICO ADMINISTRATIVO OTORGADO POR LA AUTORIDAD AMBIENTAL COMPETENTE AL REPRESENTANTE LEGAL QUE AVALA EL CUMPLIMIENTO DE TODOS LOS REQUISITOS PREVISTOS EN LA LEY Y REGLAMENTACION CORRESPONDIENTE EN LO QUE SE REFIERE A LOS PROCEDIMIENTOS DE PREVENCION Y CONTROL AMBIENTAL.",
+    "QUE ES UNA LICENCIA AMBIENTAL (L.A.) EN COCHABAMBA": {content: "ES EL DOCUMENTO JURIDICO ADMINISTRATIVO OTORGADO POR LA AUTORIDAD AMBIENTAL COMPETENTE AL REPRESENTANTE LEGAL QUE AVALA EL CUMPLIMIENTO DE TODOS LOS REQUISITOS PREVISTOS EN LA LEY Y REGLAMENTACION CORRESPONDIENTE EN LO QUE SE REFIERE A LOS PROCEDIMIENTOS DE PREVENCION Y CONTROL AMBIENTAL.",
     },
-
+    "COMO HAGO UNA LICENCIA AMBIENTAL (L.A.) EN COCHABAMBA": {content: "ES EL DOCUMENTO JURIDICO ADMINISTRATIVO OTORGADO POR LA AUTORIDAD AMBIENTAL COMPETENTE AL REPRESENTANTE LEGAL QUE AVALA EL CUMPLIMIENTO DE TODOS LOS REQUISITOS PREVISTOS EN LA LEY Y REGLAMENTACION CORRESPONDIENTE EN LO QUE SE REFIERE A LOS PROCEDIMIENTOS DE PREVENCION Y CONTROL AMBIENTAL.",
+    },
 
     "CUAL ES LA CLASIFICACION DE LOS ESPACIOS DEPORTIVOS EN COCHABAMBA": {content: "SU CLASIFICACION ES  CATEGORIA A CORRESPONDE A CENTROS DEPORTIVOS DE ALTA COMPETENCIA;  CUENTAN CON LAS CARACTERISTICAS ESTABLECIDAS POR NORMATIVA Y REGLAMENTACION INTERNACIONAL. CATEGORIA B CORRESPONDE A COMPLEJOS, CAMPOS Y COLISEOS DEPORTIVOS CERCADOS QUE ALBERGAN UNA O MAS DISCIPLINAS DEPORTIVAS. CATEGORIA C CORRESPONDE A CAMPOS DEPORTIVOS DE SUELO NATURAL O ARTIFICIAL QUE NO SE ENCUENTREN CERCADOS. CATEGORIA D CORRESPONDE A CANCHAS POLIFUNCIONALES QUE SON DE LIBRE ACCESO PARA EL USO DE LA POBLACION EN GENERAL.",
     },
