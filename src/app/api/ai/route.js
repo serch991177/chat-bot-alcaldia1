@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-
+import { findBestMatch } from 'string-similarity';
 const openai = new OpenAI({
     apiKey: process.env["OPENAI_API_KEY"],
 });
@@ -64,12 +64,12 @@ const cochabambaExamples = {
     "QUIEN ESTA A CARGO DE LA ALCALDIA DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },*/
-    "GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
+    /*"GOBIERNO AUTONOMO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },
     "GOBIERNO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
-    },
+    },*/
     /*"QUIEN ESTA A CARGO DEL GOBIERNO MUNICIPAL DE COCHABAMBA":{
         content:"El Alcalde Manfred Reyes Villa Bacigalupi",
     },*/
@@ -148,9 +148,6 @@ const cochabambaExamples = {
     },*/
     "HOLA":{
         content:"Hola soy AVONNI TU ASISTENTE, una asistente virtual basada en inteligencia artificial implementada por la Alcaldía de Cochabamba",
-    },
-    "TRAMITES":{
-        content:"",
     },
     "QUIEN ERES":{
         content:"Soy AVONNI TU ASISTENTE, una asistente virtual basada en inteligencia artificial implementada por la Alcaldía de Cochabamba, Estoy aquí para ayudarte con preguntas, conversaciones o cualquier otra cosa con referencia a los tramites que se realizan en la alcaldía de Cochabamba o sus 7 sub alcaldías.",
@@ -1614,14 +1611,26 @@ function levenshteinDistance(a, b) {
 }
 
 // Función para verificar si una pregunta es similar a otra usando un umbral de distancia
-function isSimilar(question1, question2, threshold) {
+/*function isSimilar(question1, question2, threshold) {
     if (question1.toUpperCase() === question2.toUpperCase()) {
         return true; // Si las preguntas son idénticas, devolver true
     }
     // Calcular la distancia de Levenshtein
     const distance = levenshteinDistance(question1.toUpperCase(), question2.toUpperCase());
     return distance <= threshold || question1.toUpperCase().includes(question2.toUpperCase()) || question2.toUpperCase().includes(question1.toUpperCase());
+}*/
+
+function isSimilar(question1, question2, threshold) {
+    if (question1.toUpperCase() === question2.toUpperCase()) {
+        return true; // Si las preguntas son idénticas, devolver true
+    }
+
+    const matches = findBestMatch(question1.toUpperCase(), [question2.toUpperCase()]);
+    const bestMatch = matches.bestMatch;
+
+    return bestMatch.rating >= threshold;
 }
+
 
 export async function GET(req) {
     
@@ -1645,7 +1654,7 @@ export async function GET(req) {
     } else {
         // Si no es exactamente igual, buscar coincidencias similares
         for (const exampleQuestion in cochabambaExamples) {
-            if (isSimilar(exampleQuestion, question, 5)) {
+            if (isSimilar(exampleQuestion, question, 0.5)) {
                 matchedQuestion = exampleQuestion;
                 break;
             }
