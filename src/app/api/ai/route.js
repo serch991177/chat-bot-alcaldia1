@@ -2676,32 +2676,252 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bLUNES\b)/i.test(question)){
+    }if(/^(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)(?=.*\bVIERNES\b)/i.test(question)){
+        const variable = "No puede ingresar si el último número de su placa es ocho y nueve.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bHORARIO\b)(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "el horario establecido para el control y cumplimiento de la restricción de ingreso y circulación de vehículos es de 7 30 mañana  a 19  tarde.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bAPLICA\b)(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "se aplica todo vehículo del servicio particular, todo vehículo de servicio de radio Taxi, Radio Móvil, Taxi Asociado,  Taxi Libre, todos los vehículos oficiales, excepto los vehículos oficiales del Presidente del estado plurinacional, Gobernador, Alcalde Municipal, así como vehículos de Auxilio, emergencia y medios de Comunicación, todos los vehículos de los precitados incisos 1, 2 y 3, registrados en el Gobierno Autónomo Municipal de Cochabamba, los registrados en otros municipios que desarrollan su trabajo en la jurisdicción del Cercado y aquellos que están en tránsito por la ciudad de Cochabamba.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bEXCLUIDOS\b)(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "Los vehículos de transporte urbano de pasajeros de las modalidades correspondientes a Buses, Microbuses, Minibuses y Taxitrufis definidos en el Artículo 11 del Reglamento Municipal para el Servicio de Transporte Público de Pasajeros aprobado por Ordenanza Municipal Número 2998 del 2003, vehículos que por contrato de construcción de obras o de servicios estén vinculados con el Gobierno Autónomo Municipal de Cochabamba y cuenten con autorización de la Dirección de Planeamiento, a través del Departamento de Ordenamiento de Sistemas de Movilidad Urbana.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bMULTA\b)(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "El ingreso de un vehículo al área descrita en el Artículo Primero en días en que la terminación numérica de la placa se encuentre restringida, será considerado como una infracción, para lo cual se aplicará una multa de Bolivianos 100. En caso de resistencia o ausencia del propietario o conductor del vehículo, el mismo será trasladado a garaje de resguardo. Para que un vehículo conducido o trasladado con remolque a garaje de resguardo pueda ser liberado, el conductor o propietario deberá acreditar la propiedad o tenencia legal del vehículo, haber cancelado la Multa correspondiente en la Dirección de Recaudaciones e Ingresos del Municipio; cancelar la tarifa de Bolivianos 100 por el traslado del vehículo a la empresa convocada para el efecto y cancelar y Bolivianos 10 por día de permanencia del vehículo en garaje de resguardo. La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bFOTOMULTA\b)/i.test(question)){
+        const variable = "Es un sistema de vigilancia automatizado que utiliza cámaras para capturar imágenes de vehículos que infringen las normas de restricción vehicular, estas cámaras registran la placa del vehículo y la fecha y hora de la infracción, y luego se emite una multa al propietario del vehículo.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bNORMATIVA\b)(?=.*\bRESTRICCION\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "En la ley Municipal número  395 del 2019, de regulación de ingresos no tributariosOrdenanza Municipal  Número 4394 del 2012,  Restricción vehicular.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bESTACIONAMIENTO\b)(?=.*\bTARIFADO\b)/i.test(question)){
+        const variable = "las condiciones de utilización y uso de las vías públicas con fines de estacionamiento temporal de vehículos particulares, así como, la disposición de paradas para el servicio de transporte público de pasajeros y la aplicación de las sanciones correspondientes.La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bHORARIOS\b)(?=.*\bESTACIONAMIENTO\b)/i.test(question)){
+        const variable = "Los estacionamientos vehiculares permitidos podrán ser utilizados mientras no exista una restricción que prohíba su uso. Los horarios de uso de las vías de estacionamiento tarifado son desde las 8 de la mañana hasta las 12 de la tarde y desde las 14 30 de la tarde hasta las 18 30 de la tarde de lunes a viernes y los sábados de 8 de la mañana hasta las 13 de la tarde. Los horarios de control en las vías de estacionamiento prohibido se determinarán en función a los niveles de congestión, demoras, perfiles de vía, volumen de vehículos y otros parámetros técnicos, y estarán establecidos mediante Decreto Municipal Reglamentario La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bTARIFAS\b)(?=.*\bESTACIONAMIENTO\b)/i.test(question)){
+        const variable = "La tarifa única por cada treinta minutos de Estacionamiento en las vías de estacionamiento tarifado, es de bolivianos unoLa unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bPAGO\b)(?=.*\bESTACIONAMIENTO\b)/i.test(question)){
+        const variable = "El pago por el servicio de estacionamiento municipal se puede realizar con el personal del servicio de estacionamiento municipal  distribuido por las áreas de parqueo tarifado, por la aplicación Innova para celulares o la página web de Innova La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bMULTA\b)(?=.*\bPAGO\b)/i.test(question)){
+        const variable = "La no cancelación por uso del estacionamiento tiene una multa de 25 Bolivianos  la primera vez y 35 Bolivianos  la reincidencia.Puede realizar el pago a través de la plataforma INNOVA, cajeros municipales o bancos autorizadosLa unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bMULTA\b)(?=.*\bPASAR\b)(?=.*\bESTACIONAMIENTO\b)/i.test(question)){
+        const variable = "La permanencia por mayor tiempo del efectivamente cancelado DEL ESTACIONAMIENTO, con una tolerancia de 15 minutos  tiene una multa de 25 Bolivianos  la primera vez y 35 Bolivianos la reincidencia.Puede realizar el pago a través de la plataforma INNOVA, cajeros municipales o bancos autorizadosLa unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bMULTA\b)(?=.*\bESPACIO\b)/i.test(question)){
+        const variable = "La ocupación de más de un espacio demarcado, impidiendo con ello que sea utilizado por otro vehículo tiene una multa de 25 Bolivianos  la primera vez y 35 Bolivianos  la reincidencia.Puede realizar el pago a través de la plataforma INNOVA, cajeros municipales o bancos autorizados";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bENGRAPADO\b)/i.test(question)){
+        const variable = "Permanecer con el dispositivo de inmovilización por más de dos horas tiene un costo de 100 Bolivianos por la multa y cubrir el costo de 100 Bolivianos por el traslado a garaje de resguardo, al propietario de la grúa. Puede realizar el pago a través de la plataforma INNOVA, cajeros municipales o bancos autorizados La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDAÑAR\b)(?=.*\bSEÑALIZACION\b)/i.test(question)){
+        const variable = "La destrucción de la señalización vertical tiene una multa de 100 Bolivianos  más los costos de reposición de la señalización dañada.Puede realizar el pago a través de la plataforma INNOVA, cajeros municipales o bancos autorizadosLa unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bTRASLADO\b)(?=.*\bVEHICULO\b)/i.test(question)){
+        const variable = "En caso de resistencia al pago de la multa o ausencia del propietario o conductor del vehículo infractor, el vehículo será trasladado a garaje de resguardo Para que un vehículo conducido o trasladado con remolque a garaje de resguardo pueda ser liberado, el conductor o propietario deberá acreditar la propiedad o tenencia legal del vehículo, y haber cancelado La multa correspondiente a la infracción. Por el traslado del vehículo al garaje de resguardo. Por la permanencia del vehículo en garaje de resguardo, la suma de bolivianos 10 por día. Puede realizar el pago a través de la plataforma INNOVA, cajeros municipales o bancos autorizados La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bPAGO\b)(?=.*\bMULTA\b)/i.test(question)){
+        const variable = "La cancelación de las multas y sanciones será realizada de manera virtual en la plataforma INNOVA, en oficinas de la Dirección de Recaudaciones, la División del Servicio de Estacionamiento Municipal, entidades bancarias habilitadas para el servicio de cancelación de infracciones.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bPAGO\b)(?=.*\bINFRACCION\b)/i.test(question)){
+        const variable = "La cancelación de las multas y sanciones será realizada de manera virtual en la plataforma INNOVA, en oficinas de la Dirección de Recaudaciones, la División del Servicio de Estacionamiento Municipal, entidades bancarias habilitadas para el servicio de cancelación de infracciones.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bNORMATIVA\b)(?=.*\bESTACIONAMIENTO\b)/i.test(question)){
+        const variable = "La Constitución Política del Estado Artículos 283 y 302. Ley numero 31 Marco de Autonomías y Descentralización Andrés Ibáñez. Ley numero 165 General de Transportes. Ley Municipal numero 395 del 2019, De regulación de ingresos no tributarios. Ley Municipal numero 1087 del 2022, De regulación de estacionamientos temporales en vías públicas de la ciudad de Cochabamba. Ordenanza Municipal numero 4398 del 2012, Reglamento sobre estacionamiento vehicular. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bTAXI\b)(?=.*\bSEGURO\b)/i.test(question)){
+        const variable = "Tiene por objeto regular y dar seguridad a los pasajeros de transporte público de taxis y radiotaxis, estableciendo el procedimiento para el registro, obligaciones de los conductores, facultades del Gobierno Autónomo Municipal de Cochabamba, infracciones, sanciones y entrega de distintivos de Registro Vehicular a los propietarios de vehículos en el municipio de Cochabamba y poder denominarlos Taxi Seguro. La unidad a cargo es la Dirección de Movilidad Urbana a través de sus unidades competentes ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bOBLIGACIONES\b)(?=.*\bTAXI\b)(?=.*\bSEGURO\b)/i.test(question)){
+        const variable = "Las personas naturales o jurídicas que brindan el Servicio de Transporte Público de Pasajeros en la modalidad de Taxi o Radio Taxi, están obligadas a: El Propietario del vehículo, debe recabar y exhibir el Distintivo Autoadhesivo del Registro Vehicular (RV) de su vehículo, en el ángulo superior derecho del parabrisas delantero del vehículo. El Propietario del vehículo, debe implementar a su costo todas las características adicionales de Identificación del Registro Vehicular (RV). Las Empresas de Radio Taxis, deben exigir a todos sus conductores, la presentación del RV como requisito antes de su incorporación. Todo vehículo registrado como Taxi Seguro con carácter Obligatorio deberá ser conducido por un conductor que cuente con la Tarjeta de Identificación del Conductor.(TIC) correspondiente. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "El propietario de Taxis o Radio Taxi, deberá registrar su vehículo en las oficinas de la Dirección de Movilidad Urbana adjuntando la siguiente documentación Fotocopia de Carnet de Identidad. Fotocopia del RUAT. Fotocopia del certificado de SOAT vigente. Fotocopia del Certificado de la Inspección Técnica Vehicular. Fotocopia de la TIC otorgada por el Organismo Operativo de Tránsito. Cumplir con la inspección física del vehículo por la DGMU a través del DTP. Todos los interesados al momento de presentar las fotocopias, deben exhibir el original de los documentos. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREGISTRO\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "Recibida la documentación el (la) funcionario (a) del DTP, verificará la presentación de todos los requisitos y la autenticidad de las fotocopias respecto de los originales. En caso de que faltare uno o varios de los requisitos establecidos, se procederá a la devolución inmediata de la documentación al solicitante y se tendrá como no presentada. Cumplida la presentación de todos los requisitos, el (la) funcionario (a) registrará la carpeta y datos del vehículo y de su propietario. Se remitirá los antecedentes al técnico encargado para la digitalización de la información y registro del vehículo con un número de serie correlativo. Posteriormente, el responsable del DTP, comunicará al responsable de la DGMU quien a su vez autorizará la impresión del distintivo de registro del vehículo y dispondrá el pegado del mismo en el vehículo automotor. La carpeta y antecedentes del trámite será archivada y quedará bajo custodia del DTP. El trámite desde su inicio hasta la entrega del distintivo del RV tendrá una duración máxima de 5 días hábiles. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bBAJA\b)(?=.*\bREGISTRO\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "El propietario que deje de prestar el Servicio Público de Transporte en la modalidad de Taxi o Radio Taxi, o transfiera el vehículo, debe solicitar mediante una carta dirigida al Alcalde o Alcaldesa del GAMC la baja del Registro del Vehículo y retiro del distintivo del motorizado. En caso de transferencia del vehículo y que el nuevo propietario continúe realizando el Servicio Público de Transporte en la modalidad de Taxi o Radio Taxi, este deberá realizar el trámite para Registro del Vehículo cumpliendo los requisitos establecidos en la presente Ley Municipal. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bSANCIONES\b)(?=.*\bREGISTRO\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "El propietario del vehículo que brinde el servicio de Taxis o Radiotaxis sin contar con el RV será sujeto a una multa de 300.00 Bolivianos. El Propietario del vehículo que brinde el servicio de Taxis o Radiotaxis sin exhibir el RV será sujeto a una multa de 150.00 Bolivianos. El propietario del vehículo que brinde el servicio de Taxi o Radio Taxi sin cumplir con las características de identificación del RV será sujeto a una multa de 100 Bolivianos. El pago de las multas se realizará en las oficinas de la Dirección de Recaudaciones del Gobierno Autónomo Municipal de Cochabamba, a través de la plataforma INNOVA o bancos autorizado ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bINFRACCIONES\b)(?=.*\bREGISTRO\b)(?=.*\bVEHICULAR\b)/i.test(question)){
+        const variable = "El propietario del vehículo que brinde el servicio de Taxis o Radiotaxis sin contar con el RV será sujeto a una multa de 300.00 Bolivianos. El Propietario del vehículo que brinde el servicio de Taxis o Radiotaxis sin exhibir el RV será sujeto a una multa de 150.00 Bolivianos. El propietario del vehículo que brinde el servicio de Taxi o Radio Taxi sin cumplir con las características de identificación del RV será sujeto a una multa de 100 Bolivianos. El pago de las multas se realizará en las oficinas de la Dirección de Recaudaciones del Gobierno Autónomo Municipal de Cochabamba, a través de la plataforma INNOVA o bancos autorizado ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bSUB\b)(?=.*\bALCALDIAS\b)/i.test(question)){
+        const variable = "LAS SUB ALCALDÍAS son Tunari ubicada en la Avenida. Circunvalación y Melchor Pérez de Olguín. Molle ubicada en la Avenida Daniel Campos (Mercado el Rosario) Valle Hermoso, ubicada en Circuito Bolivia, esquina avenida Barranca, lado oeste del Campo Ferial. Adela Zamudio, ubicada en la Avenida Uyuni casi puente Recoleta NÚMERO 654 Alejo Calatayud, ubicada en la Avenida. Petrolera kilómetro 2 y medio edificio verde. Itocta ubicada en la Avenida Petrolera kilómetro 4 Entrando al Politécnico Tamborada. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bSUBALCALDIAS\b)/i.test(question)){
+        const variable = "LAS SUB ALCALDÍAS son Tunari ubicada en la Avenida. Circunvalación y Melchor Pérez de Olguín. Molle ubicada en la Avenida Daniel Campos (Mercado el Rosario) Valle Hermoso, ubicada en Circuito Bolivia, esquina avenida Barranca, lado oeste del Campo Ferial. Adela Zamudio, ubicada en la Avenida Uyuni casi puente Recoleta NÚMERO 654 Alejo Calatayud, ubicada en la Avenida. Petrolera kilómetro 2 y medio edificio verde. Itocta ubicada en la Avenida Petrolera kilómetro 4 Entrando al Politécnico Tamborada. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bBIOGRAFIA\b)(?=.*\bMANFRED\b)/i.test(question)){
+        const variable = "El Capitán Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, político y empresario. Es cochabambino por decisión, ama a su gente, a su tierra y sobre todo a Dios, nació en La Paz en 1955. Actualmente está casado y tuvo 7 hijos, dos de los cuales ya han fallecido. Estudió en el Colegio Israelita de la ciudad de La Paz; en 1973 ingresó a la Escuela Militar del Ejército, donde en 1977 obtuvo el grado de Segundo Teniente. Durante su carrera militar ocupó importantes cargos como docente en Asuntos de Especialización Militar, y trabajó como Agregado Militar de la Embajada de Bolivia en Brasil y Estados Unidos. En 1988, por motivos personales, abandona definitivamente su carrera militar con el grado de Capitán del Ejército para residir en Estados Unidos dedicándose a la vida civil y familiar, y en su área de formación académica (Business Management), ocupando también importantes cargos. como Vicepresidente de Crawford International en Silver Spring, Maryland Estados Unidos. A su regreso a Bolivia, inició su carrera política a principios de los años 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente ocupó la Alcaldía por cuatro períodos consecutivos entre 1993 y 2000. Simultáneamente a su labor como Alcalde, fue elegido Presidente de la Asociación de Gobiernos Municipales Autónomos de Bolivia, asumiendo el cargo de Miembro de la Unión Internacional de Autoridades Locales (ULA) y siendo designado de manera intermitente como Representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Asociación Mundial de Coordinación de Ciudades y Autoridades Locales, con sede en Ginebra, Suiza. En 2005 fue el primer Prefecto del departamento de Cochabamba elegido democráticamente y, en abril de 2009, en el marco de la nueva Constitución Política del Estado, se postuló a las elecciones presidenciales de 2009 obteniendo el segundo lugar de preferencia electoral. Reyes Villa se postuló nuevamente como Alcalde de Cochabamba en las elecciones subnacionales de 2021 representando a la agrupación política SUMATE, resultando electo por quinta vez con el 55.63% de los votos, ocupando la sede de este municipio como un político experimentado, con una fuerte trayectoria. disco y grandes ideas.. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUIEN\b)(?=.*\bMANFRED\b)/i.test(question)){
+        const variable = "El Capitán Manfred Reyes Villa Bacigalupi actualmente Alcalde de Cochabamba, es un militar retirado, político y empresario. Es cochabambino.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Es el registro de la información del bien inmueble técnico y legal, ya sea en la creación de una nueva unidad catastral o cuando existan cambios en el estado físico del inmueble, propietarios, nuevas construcciones o mejora de las mismas. El tramite dura 10 días calendario aproximadamente, en caso de no tener observación en los requisitos La unidad a cargo es la Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }
+    /*if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
         const variable = "";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    } 
-    /*if(/^(?=.*\bQUE\b)(?=.*\bTRANSFERENCIA\b)(?=.*\bINMUEBLE\b)/i.test(question)){
+    };
+    if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
         const variable = "";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }if(/^(?=.*\bQUE\b)(?=.*\bTRANSFERENCIA\b)(?=.*\bINMUEBLE\b)/i.test(question)){
+    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
         const variable = "";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
-    }if(/^(?=.*\bQUE\b)(?=.*\bTRANSFERENCIA\b)(?=.*\bINMUEBLE\b)/i.test(question)){
+    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
+        const variable = "";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
+        const variable = "";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
+        const variable = "";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
+        const variable = "";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
         const variable = "";
         combinedResponse = {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
     }*/
+
+
+
     
     if (!combinedResponse) {
         console.log("no match")
