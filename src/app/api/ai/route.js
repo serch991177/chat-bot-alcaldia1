@@ -2501,6 +2501,7 @@ export async function GET(req) {
     }*/
     
     if (!combinedResponse) {
+        console.log("no match")
         try {
             const chatCompletion = await openai.chat.completions.create({
                 messages: [
