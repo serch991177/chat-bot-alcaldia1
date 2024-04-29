@@ -18,7 +18,6 @@ const cochabambaExamples = {
     "CUAL ES EL NOMBRE COMPLETO DE MANFRED":{
         content:"Manfred Armando Antonio Reyes Villa Bacigalupi",
     },
-    
     "CUAL ES EL NOMBRE COMPLETO DE LA MAXIMA AUTORIDAD DE COCHABAMBA":{
         content:"Manfred Armando Antonio Reyes Villa Bacigalupi",
     },
@@ -2868,57 +2867,554 @@ export async function GET(req) {
             spanish: cochabambaExample.spanish,
             content: `${variable}`,
         };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "la Dirección de Administración Geográfica y Catastro.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    };if(/^(?=.*\bREQUISITOS\b)(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Los requisitos son Derecho de Admisión (Formulario Único de Recaudaciones FUR DA 40) 32 Bolivianos. Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Trámites Catastrales. Título de Propiedad con su folio Real (Fotocopia Legalizada). Plano del Lote (Fotocopia Legalizada). Plano de unidad de propiedad horizontal (si corresponde) (Fotocopia Legalizada). Resolución administrativa municipal de aprobación de Propiedad Horizontal (si corresponde) (Fotocopia Legalizada). Impuestos de las últimas 5 gestiones (Fotocopia simple). Carnet de identidad propietarios (Fotocopia simple). Último Registro Catastral (Fotocopia simple). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)(?=.*\bPROPIEDAD\b)/i.test(question)){
+        const variable = "Es el documento de una o varias personas naturales o jurídicas, que representa su propiedad sobre un bien inmueble a través de la asignación de un código catastral. Cuenta con información legal y técnica, cuando existe un cambio en el predio al régimen de propiedad horizontal, proporcionando nuevos códigos catastrales y el empadronamiento al Registro Único para Administración Tributaria Municipal de las nuevas unidades catastrales. El tramite tiene una durecion de 15 días calendario aproximadamente, en caso de no tener observación en los requisitos La unidad a cargo es la Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bTRAMITE\b)(?=.*\bHORIZONTAL\b)/i.test(question)){
+        const variable = "15 días calendario aproximadamente, en caso de no tener observación en los requisitos";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)(?=.*\bHORIZONTAL\b)/i.test(question)){
+        const variable = "Los requisitos son Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) 50.00 Bolivianos. Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Trámites Catastrales. Título de Adecuación a propiedad horizontal con sus respectivos folios reales (Fotocopia Legalizada). Título de propiedad con su respectivo Folio Real (Fotocopia Legalizada). Resolución ejecutiva de aprobación de Adecuación de propiedad horizontal (Fotocopia Legalizada). Plano de Adecuación a Propiedad Horizontal (Fotocopia Legalizada). Plano de Lote o Urbanización (Fotocopia Legalizada). Impuestos de las últimas 5 gestiones (Fotocopia simple). Carnet de identidad de los propietarios (Fotocopia simple). Último Registro Catastral (Fotocopia simple). Folder. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bDATOS\b)(?=.*\bTECNICOS\b)/i.test(question)){
+        const variable = "Es el Certificado Catastral que establece la ubicación exacta, y la superficie del predio de acuerdo a la documentación presentada, esta certificación sirve para la corrección de ubicación y superficies en el Folio Real. brinda información de datos técnicos actuales del predio que coinciden con el plano aprobado por el Gobierno Autónomo Municipal de Cochabamba y el Plano de Información de Datos Espaciales (IDE). El tramite esta a cargo de la Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bDATOS\b)(?=.*\bTECNICOS\b)/i.test(question)){
+        const variable = "Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) 69.00 Bolivianos. Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Trámites Catastrales. Título de Propiedad con su Folio Real (Fotocopia Legalizada). Plano del Lote (Fotocopia Legalizada). Plano de unidad de propiedad horizontal (si corresponde) (Fotocopia Legalizada). Resolución administrativa municipal de aprobación de Propiedad Horizontal (si corresponde) (Fotocopia Legalizada). Carnet de identidad de los propietarios (Fotocopia simple) ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Es el documento oficial por el cual el Gobierno Autónomo Municipal de Cochabamba, brinda seguridad jurídica a los administrados y da constancia del registro de un bien inmueble en el Catastro, consignando la última información técnica, legal. Tiempo del tramite es primer día hábil, en caso de no tener observación en los requisitos; El tramite esta a cargo de la Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Dirección de Administración Geográfica y Catastro.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Los requisitos son Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) - 50.00 Bolivianos. Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Trámites Catastrales. Título de Propiedad con su Folio Real (Fotocopia Legalizada). Plano del Lote (Fotocopia Legalizada). Plano de unidad de propiedad horizontal (si corresponde) (Fotocopia Legalizada). Resolución administrativa municipal de aprobación de Propiedad Horizontal (si corresponde) (Fotocopia Legalizada). Impuestos de las últimas 5 gestiones (Fotocopia simple). Carnet de identidad de los propietarios (Fotocopia simple). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bUSUCAPION\b)/i.test(question)){
+        const variable = "Es el documento oficial por el cual el Gobierno Autónomo Municipal de Cochabamba, brinda seguridad jurídica a los administrados y da constancia del registro de un bien inmueble en el Catastro,consignando la última información técnica, legal. El trámite está a cargo de la Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "5 días hábiles, en caso de no tener observación en los requisitos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Los requisitos son Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) - 50.00 Bolivianos. Orden Judicial o Memorial solicitando Certificaciones para Usucapión o Adjudicación. Informe Topográfico elaborado en la Sub Alcaldía correspondiente. Plano elaborado por el topógrafo de la Sub Alcaldía. Informe de remisión del trámite de Usucapión o Adjudicación elaborado en la Sub Alcaldía correspondiente. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bADJUDICACION\b)/i.test(question)){
+        const variable = "Es el documento oficial por el cual el Gobierno Autónomo Municipal de Cochabamba, brinda seguridad jurídica a los administrados y da constancia del registro de un bien inmueble en el Catastro,consignando la última información técnica, legal. Tiene una duracion de 5 días hábiles, en caso de no tener observación en los requisitosA cargo de Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bADJUDICACION\b)/i.test(question)){
+        const variable = "Los requisitos son Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) - 50.00 Bolivianos. Orden Judicial o Memorial solicitando Certificaciones para Usucapión o Adjudicación. Informe Topográfico elaborado en la Sub Alcaldía correspondiente. Plano elaborado por el topógrafo de la Sub Alcaldía. Informe de remisión del trámite de Usucapión o Adjudicación elaborado en la Sub Alcaldía correspondiente. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bDERECHO\b)(?=.*\bPROPIETARIO\b)/i.test(question)){
+        const variable = "Es el documento oficial por el cual el Gobierno Autónomo Municipal de Cochabamba, que muestra la última información técnico, legal que registra el inmueble o unidad catastral dentro del municipio, además de certificar la existencia de construcciones habitadas en el periodo establecido de acuerdo a la normativa. Tiene una duración de 10 días hábiles, en caso de no tener observación en los requisitos. A cargo de Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bDERECHO\b)(?=.*\bPROPIETARIO\b)/i.test(question)){
+        const variable = "Los requisitos son • Orden Judicial o Memorial solicitando Certificaciones para Usucapión o Adjudicación. • Informe Topográfico elaborado en la Sub Alcaldía correspondiente. • Plano elaborado por el topógrafo de la Sub Alcaldía. Informe de remisión del trámite de Usucapión o Adjudicación elaborado en la Sub Alcaldía correspondiente. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bMUNICIPALES\b)/i.test(question)){
+        const variable = "Es el documento oficial por el cual el Gobierno Autónomo Municipal de Cochabamba, que muestra la última información técnico, legal que registra el inmueble o unidad catastral dentro el municipio, dentro el proceso de la Ley 207 para el registro de áreas verdes y equipamiento a favor del municipio. El tramite tiene una duracion de 10 días hábiles, en caso de no tener observación en los requisitos. El trámite está a cargo de la Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bMUNICIPALES\b)/i.test(question)){
+        const variable = "10 días hábiles, en caso de no tener observación en los requisitos";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bMUNICIPALES\b)/i.test(question)){
+        const variable = "Los requisitos son Orden Judicial o Memorial solicitando Certificaciones para Usucapión o Adjudicación.Informe Topográfico elaborado en la Sub Alcaldía correspondiente.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)(?=.*\bJUDICIAL\b)/i.test(question)){
+        const variable = "Es el certificado de Registro Catastral que muestra la última información técnico, legal que registra el inmueble o unidad catastral dentro el municipio solicitado por orden judicial o de la Fiscalía para un proceso determinado.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Asuntos Jurídicos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "2 días hábiles ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCERTIFICACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "El requisito es una  solicitud derivada por la Dirección de Asuntos Jurídicos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)/i.test(question)){
+        const variable = "El trámite consiste en la obtención de copias legalizadas de los planos que se encuentran custodiados en Archivo de planos, de un predio en específico";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)/i.test(question)){
+        const variable = "Archivo de planos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)/i.test(question)){
+        const variable = "1 día hábil";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)/i.test(question)){
+        const variable = "Los requisitos son • Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) - 69.00 Bolivianos. • Título de Propiedad con su folio Real (Fotocopia Legalizada). • Impuestos de las últimas 5 gestiones (Fotocopia Simple). • Carnet de identidad de los propietarios (Fotocopia simple). Timbre Municipal de 10.00 Bolivianos. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)(?=.*\bURBANIZACION\b)/i.test(question)){
+        const variable = "El trámite consiste en la obtención de copias legalizadas de las láminas enteras de los Planos de Urbanizaciones o Propiedades Horizontales que se encuentran custodiados en Archivo de planos, previa autorización de la OTB o el directorio de la Propiedad Horizontal. Unidad a cargo Archivo de planos ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)(?=.*\bURBANIZACION\b)/i.test(question)){
+        const variable = "1 día hábil.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bLEGALIZACION\b)(?=.*\bPLANOS\b)(?=.*\bURBANIZACION\b)/i.test(question)){
+        const variable = "Los requisitos son • Título de Propiedad con su folio Real (Fotocopia Legalizada). • Impuestos de las últimas 5 gestiones (fotocopia simple). • Carnet de identidad de los propietarios (fotocopia simple). • 5 timbres municipales de 10 Bolivianos. Autorización de la OTB o del Directorio de la propiedad Horizontal. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bLEGALIZACION\b)(?=.*\bRESOLUCION\b)/i.test(question)){
+        const variable = "El trámite consiste en la obtención de copias legalizadas de las Resoluciones que se encuentran custodiados en Archivo de planos, de un predio en específico. Unidad a cargo Archivo de planos ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bLEGALIZACION\b)(?=.*\bRESOLUCION\b)/i.test(question)){
+        const variable = "Archivo de planos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bLEGALIZACION\b)(?=.*\bRESOLUCION\b)/i.test(question)){
+        const variable = "1 día hábil";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bLEGALIZACION\b)(?=.*\bRESOLUCION\b)/i.test(question)){
+        const variable = "son • Título de Propiedad con su folio Real (Fotocopia Legalizada). • Impuestos de las últimas 5 gestiones (fotocopia simple). • Carnet de identidad de los propietarios (fotocopia simple). Timbre Municipal de 10.00 Bolivianos. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bPRE\b)(?=.*\bREVISION\b)/i.test(question)){
+        const variable = "El trámite consiste en la obtención de copias legalizadas de las láminas enteras de los Planos de Urbanizaciones o Propiedades Horizontales que se encuentran custodiados en Archivo de planos, previa autorización de la OTB o el directorio de la Propiedad Horizontal. A cargo de Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bUNIDAD\b)(?=.*\bPRE\b)(?=.*\bREVISION\b)/i.test(question)){
+        const variable = "Dirección de Administración Geográfica y Catastro.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bPRE\b)(?=.*\bREVISION\b)/i.test(question)){
+        const variable = "1 día hábil";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bPRE\b)(?=.*\bREVISION\b)/i.test(question)){
+        const variable = "Los requisitos son • Derecho de admisión DA41 - 22.00 Bolivianos. • Título de propiedad con su folio real (Fotocopia Legalizada). • Plano del lote (fotocopia legalizada). • Plano de unidad de propiedad horizontal (si corresponde) (fotocopia legalizada). • Resolución administrativa municipal de aprobación de propiedad Horizontal (si corresponde) (Fotocopia Legalizada). • Impuestos de las últimas 5 gestiones (fotocopia simple). Carnet de identidad de los propietarios (fotocopia simple). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bHOMOLOGACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Es la actualización de código catastral de alfanumérico a la nueva codificación, verificando sus antecedentes y buscando en la base de datos que no hubiera ninguna observación. A cargo de Dirección de Administración Geográfica y Catastro ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bHOMOLOGACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "1 día hábil";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bHOMOLOGACION\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Los requisitos son • Plano de lote o ubicación. • Impuestos (Fotocopia última gestión). Registro catastral. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bACTUALIZACION\b)(?=.*\bRUAT\b)/i.test(question)){
+        const variable = "Es una actualización realizada con un Avalúo de declaración jurada para la modificación de datos técnicos,previa revisión digital en la base de datos de Catastro y uso de herramientas informáticas";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bRUAT\b)/i.test(question)){
+        const variable = "Dirección de Administración Geográfica y Catastro.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bACTUALIZACION\b)(?=.*\bRUAT\b)/i.test(question)){
+        const variable = "1 día hábil";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bACTUALIZACION\b)(?=.*\bRUAT\b)/i.test(question)){
+        const variable = "Los requisitos son • Titulo de Propiedad mas Folio Real (Fotocopia Simple). • Copia de Plano de Lote o PH. • Fotocopia de Carnet de identidad. • Registro Catastral (Opcional). Impuestos (Boleta de las 5 últimas gestiones). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bAPERTURA\b)(?=.*\bSIREC\b)/i.test(question)){
+        const variable = "Consiste en dar solución a casos con observaciones en el sistema RUAT, sobre las superficies del pago impositivo. Soluciones coordinadas con el soporte RUAT Nacional";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bSIREC\b)/i.test(question)){
+        const variable = "Dirección de Administración Geográfica y Catastro";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bAPERTURA\b)(?=.*\bSIREC\b)/i.test(question)){
+        const variable = "10 días hábiles.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bAPERTURA\b)(?=.*\bSIREC\b)/i.test(question)){
+        const variable = "Los requisitos son • Proforma con Antecedentes y problema del caso. Certificado de estabilidad estructural( opcional) solo cuando se trate de regularizaciones o ampliación de permiso. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bBAJAS\b)(?=.*\bCODIGOS\b)/i.test(question)){
+        const variable = "(matriciales, fraccionamientos, duplicados, y mal empadronados. Es el análisis técnico y legal para dar soluciones a matrices que siguen generando impuestos, fraccionamientos que no se deslindan del número matriz, números de inmuebles duplicados que le generan doble tributación, y mal empadronados por errores técnicos por insuficiencia de datos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bBAJAS\b)(?=.*\bCODIGOS\b)/i.test(question)){
+        const variable = "Dirección de Administración Geográfica y Catastro.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bBAJAS\b)(?=.*\bCODIGOS\b)/i.test(question)){
+        const variable = "15 días hábiles.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bBAJAS\b)(?=.*\bCODIGOS\b)/i.test(question)){
+        const variable = "Los requisitos son Solicitud del Contribuyente; legal tributario, fiscalización. • Resolución Técnica Administrativa para anular mixtas. • Registro Catastral. Folio Real (fotocopia simple). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bAVALUO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "En este trámite se demuestra el valor catastral del predio y construcción del inmueble para distintos tipos de trámites en Derechos reales.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bAVALUO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Dirección de Administración Geográfica y Catastro";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bAVALUO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "1 día hábil";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bAVALUO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "Los requisitos son • Solicitud dirigida al Alcalde. • Resolución técnica (Fotocopia simple). • Registro catastral (Fotocopia simple). • Titulo de Propiedad mas Folio Real (fotocopia simple). • Fotocopia planos de construcción y/o adecuación de propiedad horizontal. • Formulario de Declaración Jurada de actualización de datos técnicos. • Formulario Único de Recaudaciones (FUR DA46). • Impuesto (fotocopia 5 últimas gestiones). • Planos de lote aprobados. Boleta de liquidación. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCODIGOS\b)(?=.*\bMI\b)(?=.*\bPLANO\b)/i.test(question)){
+        const variable = "Es la determinación de ubicación de un Predio en cartografía, a la presentación de un Plano Referencial";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bACTUALIZACION\b)(?=.*\bCATASTRALES\b)/i.test(question)){
+        const variable = "La Dirección de Administración Geográfica y Catastro.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bCODIGOS\b)(?=.*\bCATASTRALES\b)/i.test(question)){
+        const variable = "Inmediato";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCODIGOS\b)(?=.*\bCATASTRALES\b)/i.test(question)){
+        const variable = "Los requisitos son • Copia simple del plano referencial. • Título de propiedad más Folio real (Fotocopia simple). Impuestos (Fotocopia última gestión). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bAPROBACION\b)(?=.*\bPLANO\b)/i.test(question)){
+        const variable = "La aprobación del Plano de División en Propiedad Horizontal es el proceso administrativo por el cual el o los propietarios de un bien inmueble, adecúan el mismo al Régimen de Propiedad Horizontal de acuerdo con las disposiciones emanadas de la Ley Nacional de Propiedad Horizontal del 30 de diciembre de 1949, el Código Civil y la Normativa Municipal en vigencia.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bAPROBACION\b)(?=.*\bPLANO\b)/i.test(question)){
+        const variable = "Departamento de Administración Urbana-Dirección de Urbanismo.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bAPROBACION\b)(?=.*\bPLANO\b)/i.test(question)){
+        const variable = "15 días hábiles.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bAPROBACION\b)(?=.*\bPLANO\b)/i.test(question)){
+        const variable = "Los requisitos son • Fotocopia de Cédula de Identidad. • Carta de Solicitud dirigida a la Máxima Autoridad Ejecutiva, solicitando la Aprobación del Plano de División en Propiedad Horizontal firmado por todos los propietarios. • Derecho de Admisión de Trámites DA49. 27.00 Bolivianos. • Fotocopia legalizada del Testimonio de propiedad. • Fotocopia legalizada del Folio Real del lote, actualizado a la fecha. • Certificado de Registro Catastral actualizado al nombre del o los propietarios que figuran en el Folio Real (DA42). 50.00 Bolivianos. • Fotocopia legalizada del Plano de Lote Aprobado actualizado dentro del periodo de un año, computable a partir de la fecha de emisión. • Fotocopia legalizada y actualizada al periodo del año en curso del Plano de Construcción aprobado junto a la resolución Administrativa Municipal respectiva. • Cuatro ejemplares impresos del Plano de División en Propiedad Horizontal, firmados y sellados por el Arquitecto con Registro Profesional, debidamente visados por el Colegio de Arquitectos de Cochabamba, con copia digital en formato .DWG en medio magnético CD/DVD respectivamente identificado (nombre del edificio, nombre del o los propietarios). Tabla de Fraccionamiento en Propiedad Horizontal debidamente llenada y derivada a través del Sistema de Cálculo de Propiedad Horizontal (acceso al sistema en el link www.cochabamba.bo/unidad/secretaria-planificacion. • Certificado de No Adeudo, actualizado al periodo impositivo vigente (Derecho de Admisión 100). • Reglamento protocolizado de Copropiedad y Administración, incluyendo un artículo donde el propietario se compromete en forma obligatoria, a hacer entrega a la Directiva de Copropietarios: planos de construcción, planos estructurales y de instalaciones (debidamente visados por los colegios profesionales respectivos), planos de propiedad horizontal, además del título de propiedad y la Resolución Ejecutiva de aprobación en propiedad horizontal. Fotocopia del Formulario de Nivel de Categorización Ambiental o en su caso Certificado de Dispensa Ambiental, conforme a las nuevas disposiciones establecidas en el Decreto Supremo Nº 3856. • Folder municipal 5 bolivianos, carátula municipal 10 bolivianos, solvencia tributaria 10 bolivianos, timbre municipal 2 bolivianos, las cuales hacen un total de 27.00 Bolivianos. En caso de ser tramitador: presentar copia legalizada y actualizada del Poder Legal Notariado Específico.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)/i.test(question)){
+        const variable = "10 días calendario aproximadamente, en caso de no tener observación en los requisitos.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bREGISTRO\b)(?=.*\bCATASTRAL\b)(?=.*\bHORIZONTAL\b)/i.test(question)){
+        const variable = "Los requisitos son • Derecho de Admisión (Formulario Único de Recaudaciones FUR DA42) - 50.00 Bolivianos. • Memorial dirigido al Honorable Alcalde Municipal (original y fotocopia simple) o Formulario de solicitud de Trámites Catastrales. • Título de Adecuación a propiedad horizontal con sus respectivos folios reales (Fotocopia Legalizada). • Título de propiedad con su respectivo Folio Real (Fotocopia Legalizada). • Resolución ejecutiva de aprobación de Adecuación de propiedad horizontal (Fotocopia Legalizada). • Plano de Adecuación a Propiedad Horizontal (Fotocopia Legalizada). • Plano de Lote o Urbanización (Fotocopia Legalizada). • Impuestos de las últimas 5 gestiones (Fotocopia simple). • Carnet de identidad de los propietarios (Fotocopia simple). • Último Registro Catastral (Fotocopia simple). Folder. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUE\b)(?=.*\bCRAM\b)/i.test(question)){
+        const variable = "Es el Certificado de Registro Ambiental Municipal que tiene como finalidad la implementación de Control y Vigilancia Ambiental de Actividades Económicas como parte de la Gestión Ambiental Municipal.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bCRAM\b)/i.test(question)){
+        const variable = "el Departamento de Gestión Atmosférica, Control y Seguimiento Ambiental, dependiente de la Secretaría de Planificación y Medio Ambiente.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bCRAM\b)/i.test(question)){
+        const variable = "El trámite dura 10 días hábiles";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bAMBIENTAL\b)(?=.*\bSUSTITUYE\b)/i.test(question)){
+        const variable = "No, el Certificado de Registro Ambiental Municipal no sustituye a una licencia ambiental, de acuerdo a la ley Número 1333 de Medio Ambiente.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bCRAM\b)/i.test(question)){
+        const variable = "Los requisitos son Nota escrita, dirigida a la Secretaría de Planificación y Medio Ambiente, solicitando la emisión del Certificado de Registro Ambiental Municipal . Comprobante de depósito bancario por el pago de admisión de trámite (según categoría: Clase 1 Bolivianos 150, Clase 2 Bolivianos 400) (para realizar el depósito, el representante legal deberá verificar el rubro que corresponda a su actividad económica, según el Anexo 3 del Decreto Municipal número 146 del 19). Formulario Ambiental Municipal (FAM) debidamente llenado acompañando las fotocopias de Cédula de Identidad del Propietario o Representante Legal, Poder de Representante Legal en caso de Personas Jurídicas El Formulario Ambiental Municipal, deberá ser presentado en físico y en formato digital (CD); en folder amarillo tamaño oficio y foliado en dos ejemplares, (Un ejemplar será para constancia del Representante Legal como constancia de presentación). ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRENOVACION\b)(?=.*\bCRAM\b)/i.test(question)){
+        const variable = "Los requisitos son El representante legal deberá realizar la renovación cada dos años. Nota escrita a la Secretaría de Planificación y Medio Ambiente Certificado de Registro Ambiental Original Fotocopia de Carnet de Identidad Fotocopia de licencia de funcionamiento Comprobante de pago según clase 1 Bolivianos. 150, clase 2 Bolivianos 400. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUE\b)(?=.*\bRAI\b)/i.test(question)){
+        const variable = "Es el registro Ambiental Industrial, es un proceso de regulación ambiental de las actividades del sector Industrial Manufacturero, en cumplimiento de las disposiciones del Reglamento Ambiental para el Sector Manufacturero (RASIM).";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bRESPONSABLE\b)(?=.*\bRAI\b)/i.test(question)){
+        const variable = "Departamento de Gestión Atmosférica, control y seguimiento Ambiental, dependiente de la Secretaría de Planificación y Medio Ambiente.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bDURACION\b)(?=.*\bRAI\b)/i.test(question)){
+        const variable = "El trámite llega a durar 10 días hábiles.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bREQUISITOS\b)(?=.*\bRAI\b)/i.test(question)){
+        const variable = "Los requisitos son Fotocopia de Cédula de Identidad del Propietario o Representante Legal y Consultor Ambiental. Fotocopia de Certificado RENCA vigente del Consultor Ambiental. Declaración jurada firmada por representante legal y consultor. Ambiental en los 3 ejemplares. Croquis de ubicación de Industria. Coordenadas Georeferenciales en UTM. fotocopias a detalle de la industria. Foliado de documentos ambientales.· Fotocopias de Poder de poder representante legal en caso de Sociedad. Otros documentos según rubro. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bLICENCIA\b)(?=.*\bAMBIENTAL\b)/i.test(question)){
+        const variable = "Es el documento jurídico administrativo otorgado por la Autoridad Ambiental Competente al Representante Legal que avala el cumplimiento de todos los requisitos previstos en la Ley y Reglamentación correspondiente en lo que se refiere a los procedimientos de prevención y control ambiental.";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCLASIFICACION\b)(?=.*\bDEPORTIVOS\b)/i.test(question)){
+        const variable = "Su clasificación es Categoría A Corresponde a centros deportivos de alta competencia; cuentan con las características establecidas por normativa y reglamentación internacional. Categoría B Corresponde a complejos, campos y coliseos deportivos cercados que albergan una o más disciplinas deportivas. Categoría C Corresponde a campos deportivos de suelo natural o artificial que no se encuentren cercados. Categoría D Corresponde a canchas polifuncionales que son de libre acceso para el uso de la población en general. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bADMINISTRA\b)(?=.*\bDEPORTIVOS\b)/i.test(question)){
+        const variable = "La administración y uso de los escenarios deportivos se realizará a través de la Dirección de Deportes dependiente de la Secretaría de Desarrollo Humano y Deportes";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bMODALIDADES\b)(?=.*\bDEPORTIVOS\b)/i.test(question)){
+        const variable = "las modalidades de uso SON CONVENIOS Es el acuerdo que celebra el GAMC, con una persona natural o jurídica, nacional o extranjera, sea pública o privada, con el fin de que las partes acordantes se brinden contraprestaciones recíprocas para el apoyo de diferentes actividades y/o eventos de desarrollo humano. CONCESIÓN ADMINISTRATIVA. - Es la relación jurídica contractual entre el GAMC y una persona natural o jurídica, para el uso de un bien de dominio público o la prestación de un servicio público por un tiempo limitado a cambio de una contraprestación. ARRENDAMIENTO. - Es la relación jurídica contractual, por la cual el GAMC, concede el uso y goce temporal de un bien o grupo de bienes a una persona natural o jurídica a cambio de una contraprestación económica, con la obligación de restituirlos a la entidad en el mismo estado. ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bTRAMITE\b)(?=.*\bVEHICULOS\b)/i.test(question)){
+        const variable = "DEPENDIENDO del trámite, este se puede realizar en movilidad urbana si es relacionado al transporte público,en recaudaciones si esta relacionado a impuestos, transferencias  o registros";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bNOMBRE\b)(?=.*\bALCALDE\b)(?=.*\bCOCHABAMBA\b)/i.test(question)){
+        const variable = "Manfred Armando Antonio Reyes Villa Bacigalupi";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUIEN\b)(?=.*\bALCALDE\b)(?=.*\bCOCHABAMBA\b)/i.test(question)){
+        const variable = "Manfred Armando Antonio Reyes Villa Bacigalupi";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUIEN\b)(?=.*\bAUTORIDAD\b)(?=.*\bCOCHABAMBA\b)/i.test(question)){
+        const variable = "Manfred Armando Antonio Reyes Villa Bacigalupi";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUIEN\b)(?=.*\bMANDA\b)(?=.*\bCOCHABAMBA\b)/i.test(question)){
+        const variable = "Manfred Armando Antonio Reyes Villa Bacigalupi";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bQUIEN\b)(?=.*\bLIDERA\b)(?=.*\bCOCHABAMBA\b)/i.test(question)){
+        const variable = "Manfred Armando Antonio Reyes Villa Bacigalupi";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bCARGOS\b)(?=.*\bMANFRED\b)/i.test(question)){
+        const variable = "Manfred Reyes Villa, el actual alcalde de Cochabamba, ha ocupado varios cargos públicos en su carrera política. Fue prefecto del departamento de Cochabamba y también candidato a la presidencia de Bolivia. Además, cuenta con una amplia experiencia política y administrativa que lo ha llevado a desempeñar varios roles en el ámbito gubernamental. En su actual mandato como alcalde, se enfoca en mejorar la infraestructura urbana y los servicios públicos de la ciudad de Cochabamba";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bNACIO\b)(?=.*\bMANFRED\b)/i.test(question)){
+        const variable = "Nació en el Departamento de La Paz un 19 de Abril de 1955";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
+    }if(/^(?=.*\bVECES\b)(?=.*\bALCALDE\b)(?=.*\bMANFRED\b)/i.test(question)){
+        const variable = "De retorno a Bolivia empezó su carrera política a principios de 1990. En 1992 asumió la Vicepresidencia del Concejo Municipal de Cochabamba. Posteriormente llegó a ser burgomaestre por cuatro periodos consecutivos entre 1993 y 2000, simultáneamente a su labor de Alcalde, fue elegido Presidente de la Asociación de Gobiernos MunicipalesAutónomos de Bolivia, asumiendo por tal calidad el cargo de Miembro de la Unión Internacional de Autoridades Locales (IULA) y siendo nombrado a nivel internacional como representante Oficial de la Red Latinoamericana de Asociaciones Municipales ante la Word Association of Cities and Local Authorities Coordination, con base en Ginebra, Suiza ";
+        combinedResponse = {
+            spanish: cochabambaExample.spanish,
+            content: `${variable}`,
+        };
     }
-    /*if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    };
-    if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }if(/^(?=.*\b\b)(?=.*\b\b)/i.test(question)){
-        const variable = "";
-        combinedResponse = {
-            spanish: cochabambaExample.spanish,
-            content: `${variable}`,
-        };
-    }*/
+
 
 
 
